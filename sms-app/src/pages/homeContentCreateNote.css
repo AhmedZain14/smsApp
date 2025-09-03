@@ -1,0 +1,177 @@
+.Home-Content_Overview_Notes{
+    /* background: red; */
+    width: 100%;
+    height: 100%;
+    font-family: var(--mainFont);
+    overflow-y: auto;
+    padding-bottom: 20px;
+}
+
+.Home-Content_Overview_Notes_CreateNotes{
+    /* background:rgb(209, 121, 121) */
+}
+
+.Home-Content_Overview_Notes_CreateNotes form{
+    /* background: bisque; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.Home-Content_Overview_Notes_CreateNotes form h1{
+    font-size: 30px;
+    font-weight: bold;
+    color:rgb(84, 206, 139);
+    margin: 0px;
+    padding: 10px 15px;
+    /* padding-right: 15px; */
+    border-bottom: 2px solid rgb(80, 115, 230);
+    text-transform: capitalized;
+    position: relative;
+    user-select: none;
+}
+
+.Home-Content_Overview_Notes_CreateNotes form h1:not(:first-child){
+    margin-top: 10px;
+}
+
+.Home-Content_Overview_Notes_CreateNotes form h1::before{
+    content: '';
+    width: 55px;
+    height: 5px;
+    background: rgb(84, 206, 139);
+    position: absolute;
+    bottom: -3.6px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.Home-Content_Overview_Notes_CreateNotes form .Home-Content_Overview_Notes_CreateNotes_Group{
+    /* background: brown; */
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    /* padding: 20px; */
+}
+
+.Home-Content_Overview_Notes_CreateNotes_Group{
+    /* background: gray; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.Home-Content_Overview_Notes_CreateNotes form .Home-Content_Overview_Notes_CreateNotes_Group label{
+    margin: 0px;
+    background: rgb(247,248,251);
+    /*background: rgb(5, 29, 100);
+    */width: fit-content;
+    color:rgb(84, 206, 139);
+    padding: 0px 5px;
+    transform: translate(-15px, 5px) !important;
+    font-size: 15px;
+    user-select: none;
+    text-align: left;
+    font-family: arabicFont !important;
+    -webkit-transform: translate(-15px, 5px) !important;
+    -moz-transform: translate(-15px, 5px) !important;
+    -ms-transform: translate(-15px, 5px) !important;
+    -o-transform: translate(-15px, 5px) !important;
+    border: 1.5px solid rgb(84, 206, 139);
+    /* border-bottom: none; */
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.Home-Content_Overview_Notes_CreateNotes form .Home-Content_Overview_Notes_CreateNotes_Group input, .Home-Content_Overview_Notes_CreateNotes form .Home-Content_Overview_Notes_CreateNotes_Group textarea{
+    background: rgb(247,248,251);
+    margin: 0px;
+    outline: none;
+    border-style: none;
+    padding: 10px 15px !important;
+    padding-top: 10px;
+    /* padding-top: 15px;  */
+    border-radius: 5px;
+    font-size: 15px;
+    color: rgb(101,108,124);
+    border: 1.5px solid rgb(84, 206, 139);
+    width: 100%;
+}
+
+.Home-Content_Overview_Notes_CreateNotes form .Home-Content_Overview_Notes_CreateNotes_Group textarea{
+    height: 200px;
+    resize: none;
+}
+
+.Home-Content_Overview_Notes_CreateNotes form .Home-Content_Overview_Notes_CreateNotes_Group textarea::-webkit-scrollbar{
+    background: rgba(0, 0, 0, 0.022);
+    width: 5px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.Home-Content_Overview_Notes_CreateNotes form .Home-Content_Overview_Notes_CreateNotes_Group textarea::-webkit-scrollbar-thumb{
+    background: rgba(0, 0, 0, 0.033);
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.Home-Content_Overview_Notes_CreateNotes form .Home-Content_Overview_Notes_CreateNotes_Group label:not(:first-child){
+    margin-top: 20px !important;
+}
+
+.Home-Content_Overview_Notes_CreateNotes_Control{
+    /* background: red; */
+    width: 100%;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Home-Content_Overview_Notes_CreateNotes_Control button{
+    margin: 0px;
+    /* width: 50px; */
+    padding: 6px 30px;
+    border-style: none;
+    outline: none;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    background:rgb(84, 206, 139);
+    color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.Home-Content_Overview_Notes_CreateNotes_Control button:hover{
+    background: rgb(68, 189, 122);
+    box-shadow: 0px 0px 8px 0.2px rgba(84, 206, 139, 0.5);
+}

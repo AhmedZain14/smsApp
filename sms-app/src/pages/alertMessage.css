@@ -1,0 +1,76 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;500;600;700&display=swap'); */
+
+.dashboard-container_Alert{
+    background:rgba(0, 0, 0, 0.450);
+    filter: blur(0px);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    backdrop-filter: blur(2px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard-container_Alert .alert{
+    background: white;
+    padding: 20px 30px;
+    width: 34%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-family: arabicFont;
+    /* position: absolute; */
+    /* right: 50px;
+    bottom: 50px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.dashboard-container_Alert .alert span{
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: rgb(230, 80, 80);
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.dashboard-container_Alert .alert p{
+    color: rgb(101,108,124);
+    font-size: 20px;
+    margin: 0px;
+    margin-bottom: 20px;
+    font-family: var(--font2);
+}
+
+.dashboard-container_Alert .alert button{
+    margin: 0px;
+    width: 50%;
+    padding: 5px 10px;
+    border-style: none;
+    outline: none;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    background:rgb(230, 80, 80);
+    color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.dashboard-container_Alert .alert button:hover{
+    background:rgb(194, 63, 63);
+    box-shadow: rgba(194, 63, 63, 0.400) 0px 0px 5px 1px;
+}

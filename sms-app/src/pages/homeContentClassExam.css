@@ -1,0 +1,135 @@
+.DashBoard-Content_Overview_Exams{
+    /* background: red; */
+    width: 100%;
+    height: 100%;
+    font-family: var(--mainFont);
+    overflow-y: auto;
+    padding-bottom: 20px;
+}
+
+.DashBoard-Content_Overview_Exams.no-exam{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: red; */
+    min-height: 400px;
+    flex-wrap: wrap;
+    /* width: 50%; */
+}
+
+.DashBoard-Content_Overview_Exams.no-exam h1{
+    /* background: blue; */
+    font-size: 20px;
+    font-weight: bold;
+    /* color:rgb(80, 115, 230); */
+    color: rgb(183,188,195);
+    margin: 0px;
+    padding: 10px 15px;
+    /* padding-right: 15px; */
+    text-transform: capitalize;
+    position: relative;
+    user-select: none;
+    font-family: arabicFont;
+}
+
+.DashBoard-Content_Overview_Exams.no-exam img{
+    height: 300px;
+    width: 300px;
+    user-select: none;
+}
+
+.DashBoard-Content_Overview_Exams_Exam{
+    /* background:rgb(209, 121, 121) */
+}
+
+.DashBoard-Content_Overview_Exams_Exam form{
+    /* background: bisque; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.DashBoard-Content_Overview_Exams_Exam_Group{
+    /* background: blue; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.DashBoard-Content_Overview_Exams_Exam_Group .QuestionGroup{
+    background: rgb(235, 237, 246);
+    width: 35%;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: var(--mainFont);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.DashBoard-Content_Overview_Exams_Exam_Group .QuestionGroup .ques{
+    font-size: 15px;
+    margin: 0px;
+    color: rgb(84, 206, 139);
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.DashBoard-Content_Overview_Exams_Exam_Group .QuestionGroup .answer{
+    font-size: 14px;
+    margin: 0px;
+    color: rgb(101,108,124);
+}
+
+.DashBoard-Content_Overview_Exams_Exam_Group .QuestionGroup .answer label{
+    margin-left: 5px;
+    transform: translateY(-2.5px);
+}
+
+.DashBoard-Content_Overview_Exams_Exam_Group .QuestionGroup .answer input{
+    cursor: pointer;
+}
+
+
+.DashBoard-Content_Overview_Exams_Exam_Control{
+    /* background: red; */
+    width: 100%;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.DashBoard-Content_Overview_Exams_Exam_Control button{
+    margin: 0px;
+    /* width: 50px; */
+    padding: 6px 30px;
+    border-style: none;
+    outline: none;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    background:rgb(84, 206, 139);
+    color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-family: arabicFont;
+}
+
+.DashBoard-Content_Overview_Exams_Exam_Control button:hover{
+    background: rgb(68, 189, 122);
+    box-shadow: 0px 0px 8px 0.2px rgba(84, 206, 139, 0.5);
+}

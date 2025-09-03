@@ -1,0 +1,247 @@
+
+@import url('../main.module.css');
+
+/* @import url('../fonts/BalooBhaijaan2-VariableFont_wght.ttf'); */
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/Marhey-Regular.ttf);
+  }
+
+/* font-family: 'Shadows Into Light', cursive; */
+/* font-family: 'Bebas Neue', cursive; */
+/* font-family: 'Cabin', sans-serif; */
+/* font-family: 'Noto Sans', sans-serif; */
+
+:root{
+    --loginPanel-color: rgb(84, 206, 139);
+}
+
+.navbar {
+    /* background: rgb(57, 48, 48); */
+    /* background: var(--main-color);  */
+    padding: 20px 40px !important;
+    position: fixed !important;
+    top: 0px;
+    left: 0px;
+    z-index: 999;
+}
+
+.navbar-logo {
+    width: 60px;
+    height: 60px;
+}
+
+.content {
+    /* background: red; */
+    height: calc(100vh);
+    /* padding: 50px 0px !important; */
+}
+
+.content .container-fluid{
+    /* background: rgb(192, 107, 127); */
+    height: 100%;
+    display: flex;
+    padding: 0px 0px;
+}
+
+.content .container-fluid .quote {
+    /* background: rgb(136, 40, 174); */
+    background: var(--loginPanel-color);
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.content .container-fluid .quote-background {
+    /* background: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    /* position: relative; */
+    z-index: 0;
+}
+
+.content .container-fluid img{
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    -webkit-transform: translate(-50%, -20%);
+    -moz-transform: translate(-50%, -20%);
+    -ms-transform: translate(-50%, -20%);
+    -o-transform: translate(-50%, -20%);
+}
+
+.content .container-fluid .quote-text {
+    /* background: rgb(57, 193, 181); */
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 15;
+    /* color: rgb(103, 113, 131); */
+    color: rgb(39, 101, 67);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px;
+    padding: 100px 170px;
+    padding-top: 525px;
+    /* font-family: 'Shadows Into Light', cursive; */
+}
+
+.content .container-fluid .quote-text p {
+    /* background: rgb(154, 198, 188); */
+    align-self: center;
+    text-align: center;
+    margin: 0px;
+    margin-top: 100px;
+    font-size: 25px;
+    font-family: 'myFirstFont';
+}
+
+.content .container-fluid .login-form {
+    /* background: rgb(34, 96, 115); */
+    background: rgba(84, 206, 139, 0.208);
+    flex: 1.2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.content .container-fluid .login-form form {
+    /* background: var(--main-color); */
+    width: 45%;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.content .container-fluid .login-form form .header {
+    /* background: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0px;
+    margin-bottom: 20px;
+}
+
+.content .container-fluid .login-form form .header i {
+    font-size: 55px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    align-self: center;
+    color: var(--loginPanel-color);
+}
+
+.content .container-fluid .login-form form .header h2 {
+    margin: 0px;
+    color: var(--loginPanel-color);
+    /* font-family: 'Bebas Neue', cursive; */
+    font-family: 'Cabin', sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.content .container-fluid .login-form form .header span {
+    margin: 0px;
+    /* font-family: 'Bebas Neue', cursive; */
+    /* font-family: 'Cabin', sans-serif; */
+    /* color: var(--second-color); */
+    color: rgba(39, 101, 67, 0.575);
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 13px;
+}
+
+.content .container-fluid .login-form form input {
+    background: var(--main-color);
+    font-size: 14px;
+    padding: 12px 15px;
+    /* color: var(--second-color); */
+    color: rgba(39, 101, 67, 0.575);
+    font-family: 'Noto Sans', sans-serif;
+    border: 0.5px solid rgba(39, 101, 67, 0.15) !important;
+    outline: none;
+    border-style: none;
+    box-shadow: none;
+    border-radius: 50px;
+}
+
+.content .container-fluid .login-form form input::placeholder {
+    /* color: var(--second-color); */
+    color: rgba(39, 101, 67, 0.575);
+}
+
+.content .container-fluid .login-form form input:hover {
+    outline: none;
+    border-style: none;
+    box-shadow: none;
+}
+
+.content .container-fluid .login-form form input {
+    margin-bottom: 18px !important;
+}
+
+.content .container-fluid .login-form form #codeHelpBlock {
+    /* color: var(--second-color); */
+    color: rgba(39, 101, 67, 0.575);
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 12px;
+    margin: 10px 0px;
+}
+
+.content .container-fluid .login-form form .login-btn {
+    width: 100%;
+    border-style: none;
+    outline: none;
+    background: var(--loginPanel-color);
+    color: var(--main-color);
+    border-radius: 50px;
+    padding: 10px;
+    margin-top: 15px;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.content .container-fluid .login-form form .login-btn:hover {
+    background: rgb(68, 189, 122);
+    box-shadow: 0px 0px 8px 0.2px rgba(84, 206, 139, 0.5);
+}
+
+.content .container-fluid .login-form .website-btn {
+    width: 30%;
+    border-style: none;
+    outline: none;
+    color: rgba(39, 101, 67, 0.575);
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    margin-left: 4px;
+}
+
+.content .container-fluid .login-form .website-btn:hover {
+    color: rgb(68, 189, 122);
+}
+
+
+

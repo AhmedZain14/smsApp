@@ -1,0 +1,126 @@
+/* Start Global Rules */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: "Cairo", sans-serif;
+    background-color: whitesmoke;
+  }
+  a {
+    text-decoration: none;
+  }
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* Small */
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  /* Medium */
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  /* Large */
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+  .container h1 {
+      background-color: tomato;
+      border-radius: 0px 0px 30px 30px;
+      color: white;
+      padding: 20px 30px ;
+      margin: 0;
+      font-size: 25px;
+  }
+  .container h3 {
+      padding: 20px 20px 0;
+      font-size: 25px;
+  }
+  .container span:first-of-type {
+      margin-right: 50px;
+      color: #777;
+  }
+  .container ul li {
+      padding: 11px;
+      font-size: 18px;
+  }
+  .container hr {
+      height: 2px;
+      background-color: tomato;
+      border: 0;
+      margin: 20px auto;
+  }
+  /* start button gallery */
+  .art p {
+    padding: 20px 50px;
+    font-size: 23px;
+    line-height: 1.5;
+  }
+  .art h2 {
+      font-size: 19px;
+      background-color: #da8475;
+      color: white;
+      padding: 12px 30px;
+      border-radius: 20px;
+      letter-spacing: 2.2px;
+  }
+  .art ul:nth-of-type(2) li{
+    font-size: 30px;
+    color: tomato;
+  }
+  .art h5 {
+    font-size: 23px;
+  }
+  .container .mainimg {
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+  }
+  /* Small */
+  @media (max-width: 768px) {
+    .container .mainimg img {
+      width: 300px;
+    }
+  }
+  .ggg {
+    background-color: tomato;
+      width: fit-content;
+      margin: auto;
+      padding: 20px 57px;
+      font-size: 20px;
+      color: white;
+      border-radius: 20px;
+      margin-bottom: 82px;
+  }
+  .imges-out,
+  .img-in {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .imges-out img,
+  .img-in img {
+    max-width:32%;
+    margin-bottom: 20px;
+    
+  }
+  
+  /* end button gallery */
+  
+  
+  

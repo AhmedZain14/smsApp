@@ -1,0 +1,422 @@
+.DashBoard-Content_Overview_Accounts{
+    /* background: rgb(80, 45, 45); */
+    /* background: url('../images/background3.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+    width: 100%;
+    height: 100%;
+    font-family: var(--mainFont);
+    overflow-y: auto;
+    padding-bottom: 20px;
+    padding-top: 0px !important;
+}
+
+.DashBoard-Content_Overview_Accounts_CreateAccount{
+    /* background:rgb(209, 121, 121) */
+}
+
+.DashBoard-Content_Overview_Accounts_CreateAccount form{
+    /* background: bisque; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+
+.DashBoard-Content_Overview_Accounts_CreateAccount form h1{
+    font-size: 30px;
+    font-weight: bold;
+    color:rgb(80, 115, 230);
+    margin: 0px;
+    padding: 10px 15px;
+    /* padding-right: 15px; */
+    border-bottom: 2px solid rgb(80, 115, 230);
+    text-transform: capitalized;
+    position: relative;
+    user-select: none;
+    font-family: var(--font2);
+}
+
+.DashBoard-Content_Overview_Accounts_CreateAccount form h1:not(:first-child){
+    margin-top: 10px;
+}
+
+.DashBoard-Content_Overview_Accounts_CreateAccount form h1::before{
+    content: '';
+    width: 55px;
+    height: 5px;
+    background: rgb(80, 115, 230);
+    position: absolute;
+    bottom: -3.6px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+
+.DashBoard-Content_Overview_Accounts_CreateAccount form .DashBoard-Content_Overview_Accounts_CreateAccount_Group{
+    /* background: brown; */
+    display: flex;
+    flex-direction: column;
+    width: 190%;
+    /* padding: 20px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    text-align: right;
+}
+
+
+.DashBoard-Content_Overview_Accounts_CreateAccount form .DashBoard-Content_Overview_Accounts_CreateAccount_Group label:not(.DashBoard-Content_Overview_Accounts_CreateAccount_Group .inputGroup label){
+    margin: 0px;
+    background: rgb(247,248,251);
+    /*background: rgb(5, 29, 100);
+    */width: fit-content;
+    color:rgb(80, 115, 230);
+    padding: 0px 5px;
+    transform: translate(-15px, 5px) !important;
+    font-size: 15px;
+    user-select: none;
+    text-align: left;
+    font-family: arabicFont !important;
+    -webkit-transform: translate(-15px, 5px) !important;
+    -moz-transform: translate(-15px, 5px) !important;
+    -ms-transform: translate(-15px, 5px) !important;
+    -o-transform: translate(-15px, 5px) !important;
+    border: 1.5px solid rgb(80, 115, 230);
+    /* border-bottom: none; */
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.DashBoard-Content_Overview_Accounts_CreateAccount_Group .inputGroup{
+    /* background: red; */
+    margin: 0px;
+    margin-top: 25px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: flex-start; */
+    /* align-items: flex-start; */
+    background: rgb(247,248,251);
+    outline: none;
+    border-style: none;
+    padding: 5px 10px;
+    padding-top: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: rgb(101,108,124);
+    border: 1.5px solid rgb(80, 115, 230);
+}
+
+.DashBoard-Content_Overview_Accounts_CreateAccount_Group .inputGroup div input{
+    transform: translateY(1px);
+    -webkit-transform: translateY(1px);
+    -moz-transform: translateY(1px);
+    -ms-transform: translateY(1px);
+    -o-transform: translateY(1px);
+}
+
+.DashBoard-Content_Overview_Accounts_CreateAccount_Group .inputGroup div label{
+    margin-left: 10px;
+}
+
+.DashBoard-Content_Overview_Accounts_CreateAccount form .DashBoard-Content_Overview_Accounts_CreateAccount_Group input, .DashBoard-Content_Overview_Accounts_CreateAccount form .DashBoard-Content_Overview_Accounts_CreateAccount_Group textarea{
+    background: rgb(247,248,251);
+    margin: 0px;
+    outline: none;
+    border-style: none;
+    padding: 10px 15px !important;
+    padding-top: 10px;
+    /* padding-top: 15px;  */
+    border-radius: 5px;
+    font-size: 15px;
+    color: rgb(101,108,124);
+    border: 1.5px solid rgb(80, 115, 230);
+    width: 100%;
+}
+
+.DashBoard-Content_Overview_Accounts_CreateAccount form .DashBoard-Content_Overview_Accounts_CreateAccount_Group textarea{
+    height: 200px;
+    resize: none;
+}
+
+.DashBoard-Content_Overview_Accounts_CreateAccount form .DashBoard-Content_Overview_Accounts_CreateAccount_Group textarea::-webkit-scrollbar{
+    background: rgba(0, 0, 0, 0.022);
+    width: 5px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.DashBoard-Content_Overview_Accounts_CreateAccount form .DashBoard-Content_Overview_Accounts_CreateAccount_Group textarea::-webkit-scrollbar-thumb{
+    background: rgba(0, 0, 0, 0.033);
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.DashBoard-Content_Overview_Accounts_CreateAccount form .DashBoard-Content_Overview_Accounts_CreateAccount_Group label:not(:first-child){
+    margin-top: 20px !important;
+}
+
+.DashBoard-Content_Overview_Accounts_CreateAccount_Control{
+    /* background: red; */
+    width: 100%;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: flex-start !important;
+    align-items: center;
+    font-family: arabicFont;
+}
+
+.DashBoard-Content_Overview_Accounts_CreateAccount_Control button{
+    margin: 0px;
+    /* width: 50px; */
+    padding: 6px 30px;
+    border-style: none;
+    outline: none;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    background:rgb(80, 115, 230);
+    color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.DashBoard-Content_Overview_Accounts_CreateAccount_Control button:hover{
+    background:rgb(70, 105, 219);
+    box-shadow: rgba(70, 105, 219, 0.400) 0px 0px 5px 1px;
+}
+
+
+.DashBoard-Content_Overview_Accounts_AccountsTable{
+    background: rgba(80, 115, 230, 0.040);
+    font-family: var(--mainFont);
+    /* color: var(--font-color1); */
+    width: 100%;
+    padding: 0px;
+    font-size: 13px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    overflow-y: auto;
+    height: 450px;
+}
+
+.DashBoard-Content_Overview_Accounts_AccountsTable .searchBox{
+    /* background: rgb(80, 115, 230); */
+    /* width: calc(100% - 4.5px); */
+    width: 100%;
+    padding: 15px 9px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    gap: 0px 20px;
+}
+
+.DashBoard-Content_Overview_Accounts_AccountsTable .searchBox input{
+    background: rgb(247,248,251);
+    margin: 0px;
+    outline: none;
+    border-style: none;
+    padding: 5px 15px !important;
+    padding-top: 5px;
+    /* padding-top: 15px;  */
+    border-radius: 5px;
+    font-size: 15px;
+    color: rgb(101,108,124);
+    border: 1.5px solid rgb(80, 115, 230);
+    width: 100%;
+}
+
+.DashBoard-Content_Overview_Accounts_AccountsTable .searchBox input::placeholder{
+    color:rgba(0, 0, 0, 0.484);
+}
+
+.DashBoard-Content_Overview_Accounts .control_panel{
+    /* background: red; */
+    width: 100%;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.DashBoard-Content_Overview_Accounts .control_panel button{
+    margin: 0px;
+    /* width: 50px; */
+    padding: 6px 35px;
+    border-style: none;
+    outline: none;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    background:rgb(80, 115, 230);
+    color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-family: arabicFont;
+}
+
+.DashBoard-Content_Overview_Accounts_AccountsTable .control_panel button:hover{
+    background:rgb(70, 105, 219);
+    box-shadow: rgba(70, 105, 219, 0.400) 0px 0px 5px 1px;
+}
+
+.DashBoard-Content_Overview_Accounts_AccountsTable .showTable{
+    /* background: rgba(80, 115, 230, 0.040); */
+    font-family: var(--mainFont);
+    /* color: var(--font-color1); */
+    width: 100%;
+    padding: 0px;
+    font-size: 13px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    overflow-y: auto;
+    height: 450px;
+}
+
+.DashBoard-Content_Overview_Accounts_AccountsTable .showTable::-webkit-scrollbar{
+    background: rgba(0, 0, 0, 0.022);
+    width: 5px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.DashBoard-Content_Overview_Accounts_AccountsTable .showTable::-webkit-scrollbar-thumb{
+    background: rgba(0, 0, 0, 0.033);
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.DashBoard-Content_Overview_Accounts_AccountsTable .showTable .table{
+    font-family: var(--mainFont) !important;
+    /*background: rgb(201, 199, 199);
+    */font-weight: 100;
+    margin: 0px;
+    color: rgb(101,108,124);
+}
+
+.DashBoard-Content_Overview_Accounts_AccountsTable .showTable .tableFixed{
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    position: relative;
+}
+
+.DashBoard-Content_Overview_Accounts_AccountsTable .showTable .table thead{
+    background: rgb(80, 115, 230);
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    user-select: none;
+    color: white;
+}
+
+.DashBoard-Content_Overview_Accounts_AccountsTable .showTable .tableFixed tbody{
+    width: 100%;
+    height: 100px;
+}
+
+.DashBoard-Content_Overview_Accounts_AccountsTable .showTable .tableFixed tr{
+    border-color: rgba(0, 0, 0, 0.033);
+}
+
+.DashBoard-Content_Overview_Accounts_AccountsTable .showTable .tableFixed tr td{
+    padding: 15px 0px;
+}
+
+.DashBoard-Content_Overview_Accounts_AccountsTable .showTable .tableFixed tbody tr{
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    cursor: pointer;
+    /* color: rgb(66, 75, 96); */
+    color: rgb(101,108,124);
+    font-weight: bold;
+}
+
+.DashBoard-Content_Overview_Accounts_AccountsTable .showTable .tableFixed tbody tr:hover{
+    background: rgba(80, 115, 230, 0.090);
+    /* color: white; */
+}
+
+
+.DashBoard-Content_Overview_Accounts_AccountsTable .showTable .tableFixed tbody tr td button{
+    font-family: var(--mainFont);
+    color: white;
+    border-style: none;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    padding: 6px 15px;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    font-size: 13px;
+    -o-transition: all 0.3s ease;
+    background: rgb(101,108,124);
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.DashBoard-Content_Overview_Accounts_AccountsTable .showTable .tableFixed tbody tr td button:hover{
+    background:rgb(70, 105, 219);
+    box-shadow: rgba(70, 105, 219, 0.400) 0px 0px 5px 1px;
+}
+
+.DashBoard-Content_Overview_Accounts_AccountsTable .showTable .tableFixed tbody tr .des{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    /* max-width: 50px; */
+    /* min-width: 10px; */
+    /* background: red; */
+    border: none;
+}

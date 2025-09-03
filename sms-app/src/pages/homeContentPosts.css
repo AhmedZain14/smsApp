@@ -1,0 +1,202 @@
+:root {
+
+    --mainFont: 'Noto Sans', sans-serif;
+    --BoxShadow1: rgba(0, 0, 0, 0.066) 0px 0px 15px 1px;
+}
+
+body{
+    font-family: var(--mainFont);
+    box-sizing: border-box;
+}
+
+.Home-Content_Overview_Posts{
+    /* background: red; */
+    width: 100%;
+    height: 100%;
+    font-family: var(--mainFont);
+    overflow-y: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.Home-Content_Overview_Posts_Post{
+    padding: 15px 10px;
+    /* background: gray; */
+    background: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    min-width: 40%;
+    max-width: 500px;
+    /* width: 500px; */
+    /* min-height: 150px; */
+    font-family: var(--mainFont);
+    box-shadow: var(--BoxShadow1);
+    font-size: 13.5px;
+}
+
+.Home-Content_Overview_Posts_Post .post-header{
+    /* background: blue; */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.Home-Content_Overview_Posts_Post .post-header .user{
+    /* background: green; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+    user-select: none;
+}
+
+.Home-Content_Overview_Posts_Post .post-header .user i{
+    font-size: 40px;
+    color: rgb(84, 206, 139);
+}
+
+.Home-Content_Overview_Posts_Post .post-header .user .texts{
+    /* background: orange; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0px;
+}
+
+.Home-Content_Overview_Posts_Post .post-header .user .texts span{
+    margin: 0px;
+}
+
+.Home-Content_Overview_Posts_Post .post-header .user .texts .name{
+    font-size: 18px;
+    color: rgb(101,108,124);
+    font-weight: bold;
+}
+
+.Home-Content_Overview_Posts_Post .post-header .user .texts .date{
+    font-size: 10px;
+    color: rgb(183,188,195);
+}
+
+.Home-Content_Overview_Posts_Post .post-header .control i{
+    color: rgb(101,108,124);
+    /* background: red; */
+    padding: 8px 9px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    font-size: 15px;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.Home-Content_Overview_Posts_Post .post-header .control i:hover{
+    background: rgba(183, 188, 195, 0.180);
+}
+
+.Home-Content_Overview_Posts_Post .post-description{
+    /* background: red; */
+    /* height: 100px; */
+    height: fit-content;
+    padding: 10px 0px;
+    overflow: hidden;
+}
+
+.Home-Content_Overview_Posts_Post .post-description p{
+    /* text-emphasis: ellipsis; */
+    /* text-overflow: ellipsis; */
+    /* overflow: hidden; */
+    /*white-space: nowrap;*/
+    margin: 0px;
+    color: rgb(101,108,124);
+    font-size: 14px;
+}
+
+.Home-Content_Overview_Posts_Post .post-control{
+    /* background: rgb(152, 152, 157); */
+    margin-top: 20px;
+}
+
+.Home-Content_Overview_Posts_Post .post-control .info{
+    padding: 5px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: var(--mainFont);
+    user-select: none;
+}
+
+.Home-Content_Overview_Posts_Post .post-control .info span{
+    color: rgb(183,188,195);
+    font-size: 14px;
+}
+
+.Home-Content_Overview_Posts_Post .post-control hr{
+    margin: 0px;
+    background: rgba(0, 0, 0, 0.236);
+    height: 0.5px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.Home-Content_Overview_Posts_Post .post-control .likes-comments{
+    padding: 5px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.Home-Content_Overview_Posts_Post .post-control .likes-comments span{
+    /*background: red;
+    */padding: 5px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: rgb(101,108,124);
+}
+
+.Home-Content_Overview_Posts_Post .post-control .likes-comments span:hover{
+    background: rgba(183, 188, 195, 0.180);
+}
+
+.Home-Content_Overview_Posts_Post .post-control .likes-comments span i{
+    margin-top: 1.5px;
+}

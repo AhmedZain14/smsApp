@@ -1,0 +1,333 @@
+.DashBoard-Content_Overview_FinancialAccounts{
+    /* background: red; */
+    width: 100%;
+    height: 100%;
+    font-family: var(--mainFont);
+    overflow-y: auto;
+    padding-bottom: 20px;
+}
+
+.DashBoard-Content_Overview_FinancialAccounts_Create{
+    /* background:rgb(209, 121, 121) */
+}
+
+.DashBoard-Content_Overview_FinancialAccounts_Create form{
+    /* background: bisque; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.DashBoard-Content_Overview_FinancialAccounts_Create form h1{
+    font-size: 30px;
+    font-weight: bold;
+    color:rgb(80, 115, 230);
+    margin: 0px;
+    padding: 10px 15px;
+    /* padding-right: 15px; */
+    border-bottom: 2px solid rgb(80, 115, 230);
+    text-transform: capitalized;
+    position: relative;
+    user-select: none;
+}
+
+.DashBoard-Content_Overview_FinancialAccounts_Create form h1:not(:first-child){
+    margin-top: 10px;
+}
+
+.DashBoard-Content_Overview_FinancialAccounts_Create form h1::before{
+    content: '';
+    width: 55px;
+    height: 5px;
+    background: rgb(80, 115, 230);
+    position: absolute;
+    bottom: -3.6px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.DashBoard-Content_Overview_FinancialAccounts_Create form .DashBoard-Content_Overview_FinancialAccounts_Create_Group{
+    /* background: brown; */
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    /* padding: 20px; */
+}
+
+
+.DashBoard-Content_Overview_FinancialAccounts_Create form .DashBoard-Content_Overview_FinancialAccounts_Create_Group label:not(.DashBoard-Content_Overview_FinancialAccounts_Create_Group .inputGroup label){
+    margin: 0px;
+    background: rgb(247,248,251);
+    width: fit-content;
+    color:rgb(80, 115, 230);
+    padding: 0px 5px;
+    transform: translate(10px, 10px);
+    -webkit-transform: translate(10px, 10px);
+    -moz-transform: translate(10px, 10px);
+    -ms-transform: translate(10px, 10px);
+    -o-transform: translate(10px, 10px);
+    font-size: 15px;
+    user-select: none;
+}
+
+.DashBoard-Content_Overview_FinancialAccounts_Create_Group .inputGroup{
+    /* background: red; */
+    margin: 0px;
+    margin-top: 25px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: flex-start; */
+    /* align-items: flex-start; */
+    background: rgb(247,248,251);
+    outline: none;
+    border-style: none;
+    padding: 5px 10px;
+    padding-top: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: rgb(101,108,124);
+    border: 1.5px solid rgb(80, 115, 230);
+}
+
+.DashBoard-Content_Overview_FinancialAccounts_Create_Group .inputGroup div input{
+    transform: translateY(1px);
+    -webkit-transform: translateY(1px);
+    -moz-transform: translateY(1px);
+    -ms-transform: translateY(1px);
+    -o-transform: translateY(1px);
+}
+
+.DashBoard-Content_Overview_FinancialAccounts_Create_Group .inputGroup div label{
+    margin-left: 10px;
+}
+
+.DashBoard-Content_Overview_FinancialAccounts_Create form .DashBoard-Content_Overview_FinancialAccounts_Create_Group input, .DashBoard-Content_Overview_FinancialAccounts_Create form .DashBoard-Content_Overview_FinancialAccounts_Create_Group textarea{
+    background: rgb(247,248,251);
+    margin: 0px;
+    outline: none;
+    border-style: none;
+    padding: 5px 10px;
+    padding-top: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: rgb(101,108,124);
+    border: 1.5px solid rgb(80, 115, 230);
+}
+
+.DashBoard-Content_Overview_FinancialAccounts_Create form .DashBoard-Content_Overview_FinancialAccounts_Create_Group textarea{
+    height: 200px;
+    resize: none;
+}
+
+.DashBoard-Content_Overview_FinancialAccounts_Create form .DashBoard-Content_Overview_FinancialAccounts_Create_Group textarea::-webkit-scrollbar{
+    background: rgba(0, 0, 0, 0.022);
+    width: 5px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.DashBoard-Content_Overview_FinancialAccounts_Create form .DashBoard-Content_Overview_FinancialAccounts_Create_Group textarea::-webkit-scrollbar-thumb{
+    background: rgba(0, 0, 0, 0.033);
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.DashBoard-Content_Overview_FinancialAccounts_Create form .DashBoard-Content_Overview_FinancialAccounts_Create_Group label:not(:first-child){
+    margin-top: 15px;
+}
+
+.DashBoard-Content_Overview_FinancialAccounts_Create_Control{
+    /* background: red; */
+    width: 100%;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+}
+
+.DashBoard-Content_Overview_FinancialAccounts_Create_Control button{
+    margin: 0px;
+    /* width: 50px; */
+    padding: 6px 30px;
+    border-style: none;
+    outline: none;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    background:rgb(80, 115, 230);
+    color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.DashBoard-Content_Overview_FinancialAccounts_Create_Control button:hover{
+    background:rgb(70, 105, 219);
+    box-shadow: rgba(70, 105, 219, 0.400) 0px 0px 5px 1px;
+}
+
+
+.DashBoard-Content_Overview_FinancialAccounts_FinancialAccountsTable{
+    /* background: var(--third-color); */
+    /* background: rgb(25, 151, 139); */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 0px;
+    padding-top: 200px;
+    align-items: center;
+    font-family: var(--mainFont);
+}
+
+
+.DashBoard-Content_Overview_FinancialAccounts_FinancialAccountsTable .showTable{
+    background: rgb(229, 230, 236);
+    font-family: var(--mainFont);
+    /* color: var(--font-color1); */
+    width: 100%;
+    padding: 0px;
+    font-size: 13px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    overflow-y: auto;
+    height: 300px;
+}
+
+.DashBoard-Content_Overview_FinancialAccounts_FinancialAccountsTable .showTable::-webkit-scrollbar{
+    background: rgba(0, 0, 0, 0.022);
+    width: 5px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.DashBoard-Content_Overview_FinancialAccounts_FinancialAccountsTable .showTable::-webkit-scrollbar-thumb{
+    background: rgba(0, 0, 0, 0.033);
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.DashBoard-Content_Overview_FinancialAccounts_FinancialAccountsTable .showTable .table{
+    font-family: var(--mainFont) !important;
+    /*background: rgb(201, 199, 199);
+    */font-weight: 100;
+    margin: 0px;
+    color: rgb(101,108,124);
+}
+
+.DashBoard-Content_Overview_FinancialAccounts_FinancialAccountsTable .showTable .tableFixed{
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    position: relative;
+}
+
+.DashBoard-Content_Overview_FinancialAccounts_FinancialAccountsTable .showTable .table thead{
+    background: rgb(101,108,124);
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    user-select: none;
+    color: white;
+}
+
+.DashBoard-Content_Overview_FinancialAccounts_FinancialAccountsTable .showTable .tableFixed tbody{
+    width: 100%;
+    height: 100px;
+}
+
+.DashBoard-Content_Overview_FinancialAccounts_FinancialAccountsTable .showTable .tableFixed tr{
+    border-color: rgba(0, 0, 0, 0.033);
+}
+
+.DashBoard-Content_Overview_FinancialAccounts_FinancialAccountsTable .showTable .tableFixed tr td{
+    padding: 10px 12px;
+    /* background: red; */
+}
+
+.DashBoard-Content_Overview_FinancialAccounts_FinancialAccountsTable .showTable .tableFixed tbody tr{
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    cursor: pointer;
+    /* color: rgb(66, 75, 96); */
+    color: rgb(101,108,124);
+    font-weight: bold;
+}
+
+.DashBoard-Content_Overview_FinancialAccounts_FinancialAccountsTable .showTable .tableFixed tbody tr:hover{
+    background: rgba(74, 74, 84, 0.099);
+    /* color: white; */
+}
+
+
+.DashBoard-Content_Overview_FinancialAccounts_FinancialAccountsTable .showTable .tableFixed tbody tr td button{
+    font-family: var(--mainFont);
+    color: white;
+    border-style: none;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    padding: 5px 15px;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    font-size: 13px;
+    -o-transition: all 0.3s ease;
+    background: rgb(101,108,124);
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.DashBoard-Content_Overview_FinancialAccounts_FinancialAccountsTable .showTable .tableFixed tbody tr td button:hover{
+    background:rgb(70, 105, 219);
+    box-shadow: rgba(70, 105, 219, 0.400) 0px 0px 5px 1px;
+}
+
+.DashBoard-Content_Overview_FinancialAccounts_FinancialAccountsTable .showTable .tableFixed tbody tr .des{
+    /* overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; */
+    /* max-width: 50px; */
+    /* min-width: 10px; */
+    /* background: red; */
+    border: none;
+}

@@ -1,0 +1,390 @@
+.DashBoard-Content_Overview_Reports{
+    /* background: red; */
+    width: 100%;
+    height: 100%;
+    font-family: var(--mainFont);
+    overflow-y: auto;
+    padding-bottom: 20px;
+}
+
+.DashBoard-Content_Overview_Reports_CreateReports{
+    /* background:rgb(209, 121, 121) */
+}
+
+.DashBoard-Content_Overview_Reports_CreateReports form{
+    /* background: bisque; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.DashBoard-Content_Overview_Reports_CreateReports form h1{
+    font-size: 30px;
+    font-weight: bold;
+    color:rgb(80, 115, 230);
+    margin: 0px;
+    padding: 10px 15px;
+    /* padding-right: 15px; */
+    border-bottom: 2px solid rgb(80, 115, 230);
+    text-transform: capitalized;
+    position: relative;
+    user-select: none;
+}
+
+.DashBoard-Content_Overview_Reports_CreateReports form h1:not(:first-child){
+    margin-top: 10px;
+}
+
+.DashBoard-Content_Overview_Reports_CreateReports form h1::before{
+    content: '';
+    width: 55px;
+    height: 5px;
+    background: rgb(80, 115, 230);
+    position: absolute;
+    bottom: -3.6px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.DashBoard-Content_Overview_Reports_CreateReports form .DashBoard-Content_Overview_Reports_CreateReports_Group{
+    /* background: brown; */
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    /* padding: 20px; */
+}
+
+
+.DashBoard-Content_Overview_Reports_CreateReports form .DashBoard-Content_Overview_Reports_CreateReports_Group label:not(.DashBoard-Content_Overview_Reports_CreateReports_Group .inputGroup label){
+    margin: 0px;
+    background: rgb(247,248,251);
+    width: fit-content;
+    color:rgb(80, 115, 230);
+    padding: 0px 5px;
+    transform: translate(10px, 10px);
+    -webkit-transform: translate(10px, 10px);
+    -moz-transform: translate(10px, 10px);
+    -ms-transform: translate(10px, 10px);
+    -o-transform: translate(10px, 10px);
+    font-size: 15px;
+    user-select: none;
+}
+
+.DashBoard-Content_Overview_Reports_CreateReports_Group .spanGroup{
+    /* background: red; */
+    margin: 0px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px 5px;
+    flex-wrap: wrap;
+    background: rgb(247,248,251);
+    outline: none;
+    border-style: none;
+    padding: 10px 10px;
+    /* padding-top: 10px; */
+    border-radius: 5px;
+    font-size: 15px;
+    color: rgb(101,108,124);
+    border: 1.5px solid rgb(80, 115, 230);
+    user-select: none;
+}
+
+.DashBoard-Content_Overview_Reports_CreateReports_Group .spanGroup div span{
+    background: rgb(101,108,124);
+    color: white;
+    padding: 5px 10px;
+    margin: 0px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.DashBoard-Content_Overview_Reports_CreateReports form .DashBoard-Content_Overview_Reports_CreateReports_Group input, .DashBoard-Content_Overview_Reports_CreateReports form .DashBoard-Content_Overview_Reports_CreateReports_Group textarea{
+    background: rgb(247,248,251);
+    margin: 0px;
+    outline: none;
+    border-style: none;
+    padding: 5px 10px;
+    padding-top: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: rgb(101,108,124);
+    border: 1.5px solid rgb(80, 115, 230);
+}
+
+.DashBoard-Content_Overview_Reports_CreateReports form .DashBoard-Content_Overview_Reports_CreateReports_Group textarea{
+    height: 200px;
+    resize: none;
+}
+
+.DashBoard-Content_Overview_Reports_CreateReports form .DashBoard-Content_Overview_Reports_CreateReports_Group textarea::-webkit-scrollbar{
+    background: rgba(0, 0, 0, 0.022);
+    width: 5px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.DashBoard-Content_Overview_Reports_CreateReports form .DashBoard-Content_Overview_Reports_CreateReports_Group textarea::-webkit-scrollbar-thumb{
+    background: rgba(0, 0, 0, 0.033);
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.DashBoard-Content_Overview_Reports_CreateReports form .DashBoard-Content_Overview_Reports_CreateReports_Group label:not(:first-child){
+    margin-top: 15px;
+}
+
+.DashBoard-Content_Overview_Reports_CreateReports_Control{
+    /* background: red; */
+    width: 100%;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+}
+
+.DashBoard-Content_Overview_Reports_CreateReports_Control button{
+    margin: 0px;
+    /* width: 50px; */
+    padding: 6px 30px;
+    border-style: none;
+    outline: none;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    background:rgb(80, 115, 230);
+    color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.DashBoard-Content_Overview_Reports_CreateReports_Control button:hover{
+    background:rgb(70, 105, 219);
+    box-shadow: rgba(70, 105, 219, 0.400) 0px 0px 5px 1px;
+}
+
+
+.DashBoard-Content_Overview_Reports_ReportsTable{
+    background: rgba(80, 115, 230, 0.040);
+    font-family: var(--mainFont);
+    /* color: var(--font-color1); */
+    width: 100%;
+    padding: 0px;
+    font-size: 13px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    overflow-y: auto;
+    height: 450px;
+}
+
+.DashBoard-Content_Overview_Reports_ReportsTable .control_panel{
+    /* background: red; */
+    width: 100%;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.DashBoard-Content_Overview_Reports_ReportsTable .control_panel button{
+    margin: 0px;
+    /* width: 50px; */
+    padding: 6px 35px;
+    border-style: none;
+    outline: none;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    background:rgb(80, 115, 230);
+    color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-family: arabicFont;
+}
+
+.DashBoard-Content_Overview_Reports_ReportsTable .control_panel button:hover{
+    background:rgb(70, 105, 219);
+    box-shadow: rgba(70, 105, 219, 0.400) 0px 0px 5px 1px;
+}
+
+.DashBoard-Content_Overview_Reports_ReportsTable .showTable{
+    /* background: rgba(80, 115, 230, 0.040); */
+    font-family: var(--mainFont);
+    /* color: var(--font-color1); */
+    width: 100%;
+    padding: 0px;
+    font-size: 13px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    overflow-y: auto;
+    height: 450px;
+}
+
+.DashBoard-Content_Overview_Reports_ReportsTable .showTable::-webkit-scrollbar{
+    background: rgba(0, 0, 0, 0.022);
+    width: 5px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.DashBoard-Content_Overview_Reports_ReportsTable .showTable::-webkit-scrollbar-thumb{
+    background: rgba(0, 0, 0, 0.033);
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.DashBoard-Content_Overview_Reports_ReportsTable .showTable .table{
+    font-family: var(--mainFont) !important;
+    /*background: rgb(201, 199, 199);
+    */font-weight: 100;
+    margin: 0px;
+    color: rgb(101,108,124);
+}
+
+.DashBoard-Content_Overview_Reports_ReportsTable .showTable .tableFixed{
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    position: relative;
+}
+
+.DashBoard-Content_Overview_Reports_ReportsTable .showTable .table thead{
+    background: rgb(80, 115, 230);
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    user-select: none;
+    color: white;
+}
+
+.DashBoard-Content_Overview_Reports_ReportsTable .showTable .tableFixed tbody{
+    width: 100%;
+    /* height: 100px; */
+}
+
+.DashBoard-Content_Overview_Reports_ReportsTable .showTable .tableFixed tr{
+    border-color: rgba(0, 0, 0, 0.033);
+}
+
+.DashBoard-Content_Overview_Reports_ReportsTable .showTable .tableFixed tr td{
+    padding: 10px 0px;
+}
+
+.DashBoard-Content_Overview_Reports_ReportsTable .showTable .tableFixed tbody tr{
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    cursor: pointer;
+    /* color: rgb(66, 75, 96); */
+    color: rgb(101,108,124);
+    font-weight: bold;
+}
+
+.DashBoard-Content_Overview_Reports_ReportsTable .showTable .tableFixed tbody tr:hover{
+    background: rgba(80, 115, 230, 0.090);
+    /* color: white; */
+}
+
+
+.DashBoard-Content_Overview_Reports_ReportsTable .showTable .tableFixed tbody tr td button{
+    font-family: var(--mainFont);
+    color: white;
+    border-style: none;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    padding: 5px 15px;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    font-size: 13px;
+    -o-transition: all 0.3s ease;
+    background: rgb(101,108,124);
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.DashBoard-Content_Overview_Reports_ReportsTable .showTable .tableFixed tbody tr td button:first-child{
+    margin-right: 10px;
+}
+
+
+.DashBoard-Content_Overview_Reports_ReportsTable .showTable .tableFixed tbody tr td button:hover{
+    background:rgb(70, 105, 219);
+    box-shadow: rgba(70, 105, 219, 0.400) 0px 0px 5px 1px;
+}
+
+.DashBoard-Content_Overview_Reports_ReportsTable .showTable .tableFixed tbody tr .status{
+    /* overflow: hidden; */
+    /* white-space: nowrap; */
+    /* text-overflow: ellipsis; */
+    /* max-width: 50px; */
+    /* min-width: 10px; */
+    /* background: red; */
+    border: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px 5px;
+    user-select: none;
+}
+
+.DashBoard-Content_Overview_Reports_ReportsTable .showTable .tableFixed tbody tr .status span{
+    /* background: rgb(80, 115, 230); */
+    /* background: rgba(80, 115, 230, 0.500) !important; */
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+}

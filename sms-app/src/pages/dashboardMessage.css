@@ -1,0 +1,175 @@
+.DashBoard-Content_Overview_Message{
+    /* background: red; */
+    width: 100%;
+    height: 100%;
+    font-family: var(--mainFont);
+    overflow-y: auto;
+    padding-bottom: 20px;
+}
+
+.DashBoard-Content_Overview_Message_CreateMessage{
+    /* background:rgb(209, 121, 121) */
+}
+
+.DashBoard-Content_Overview_Message_CreateMessage form{
+    /* background: bisque; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.DashBoard-Content_Overview_Message_CreateMessage form h1{
+    font-size: 30px;
+    font-weight: bold;
+    color:rgb(80, 115, 230);
+    margin: 0px;
+    padding: 10px 15px;
+    /* padding-right: 15px; */
+    border-bottom: 2px solid rgb(80, 115, 230);
+    text-transform: capitalized;
+    position: relative;
+    user-select: none;
+}
+
+.DashBoard-Content_Overview_Message_CreateMessage form h1:not(:first-child){
+    margin-top: 10px;
+}
+
+.DashBoard-Content_Overview_Message_CreateMessage form h1::before{
+    content: '';
+    width: 55px;
+    height: 5px;
+    background: rgb(80, 115, 230);
+    position: absolute;
+    bottom: -3.6px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.DashBoard-Content_Overview_Message_CreateMessage form .DashBoard-Content_Overview_Message_CreateMessage_Group{
+    /* background: brown; */
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    /* padding: 20px; */
+}
+
+.DashBoard-Content_Overview_Message_CreateMessage_Group{
+        /* background: gray; */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-end;
+        text-align: right;
+}
+
+.DashBoard-Content_Overview_Message_CreateMessage form .DashBoard-Content_Overview_Message_CreateMessage_Group label{
+    margin: 0px;
+    background: rgb(247,248,251);
+    width: fit-content;
+    color:rgb(80, 115, 230);
+    padding: 0px 5px;
+    transform: translate(-20px, 10px) !important;
+    font-size: 15px;
+    user-select: none;
+    text-align: left !important;
+    font-family: arabicFont !important;
+    -webkit-transform: translate(-15px, 5px) !important;
+    -moz-transform: translate(-15px, 5px) !important;
+    -ms-transform: translate(-15px, 5px) !important;
+    -o-transform: translate(-15px, 5px) !important;
+    border: 1.5px solid rgb(80, 115, 230) !important;
+    border-radius: 5px !important;
+    -webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    -ms-border-radius: 5px !important;
+    -o-border-radius: 5px !important;
+}
+
+.DashBoard-Content_Overview_Message_CreateMessage form .DashBoard-Content_Overview_Message_CreateMessage_Group input, .DashBoard-Content_Overview_Message_CreateMessage form .DashBoard-Content_Overview_Message_CreateMessage_Group textarea{
+    background: rgb(247,248,251);
+    margin: 0px;
+    outline: none;
+    border-style: none;
+    padding: 10px 15px !important;
+    padding-top: 10px;
+    /* padding-top: 15px;  */
+    border-radius: 5px;
+    font-size: 15px;
+    color: rgb(101,108,124);
+    border: 1.5px solid rgb(80, 115, 230);
+    width: 100%;
+}
+
+.DashBoard-Content_Overview_Message_CreateMessage form .DashBoard-Content_Overview_Message_CreateMessage_Group textarea{
+    height: 200px;
+    resize: none;
+}
+
+.DashBoard-Content_Overview_Message_CreateMessage form .DashBoard-Content_Overview_Message_CreateMessage_Group textarea::-webkit-scrollbar{
+    background: rgba(0, 0, 0, 0.022);
+    width: 5px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.DashBoard-Content_Overview_Message_CreateMessage form .DashBoard-Content_Overview_Message_CreateMessage_Group textarea::-webkit-scrollbar-thumb{
+    background: rgba(0, 0, 0, 0.033);
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.DashBoard-Content_Overview_Message_CreateMessage form .DashBoard-Content_Overview_Message_CreateMessage_Group label:not(:first-child){
+    margin-top: 20px !important;
+}
+
+.DashBoard-Content_Overview_Message_CreateMessage_Control{
+    /* background: red; */
+    width: 100%;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.DashBoard-Content_Overview_Message_CreateMessage_Control button{
+    margin: 0px;
+    /* width: 50px; */
+    padding: 6px 30px;
+    border-style: none;
+    outline: none;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    background:rgb(80, 115, 230);
+    color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.DashBoard-Content_Overview_Message_CreateMessage_Control button:hover{
+    background:rgb(70, 105, 219);
+    box-shadow: rgba(70, 105, 219, 0.400) 0px 0px 5px 1px;
+}

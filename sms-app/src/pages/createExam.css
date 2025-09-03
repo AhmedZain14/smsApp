@@ -1,0 +1,378 @@
+.Home-Content_Overview_Classes{
+    /* background: red; */
+    width: 100%;
+    height: 100%;
+    font-family: var(--mainFont);
+    overflow-y: auto;
+    padding-bottom: 20px;
+}
+
+.Home-Content_Overview_Classes_CreateClasses{
+    /* background:rgb(209, 121, 121); */
+}
+
+.Home-Content_Overview_Classes_CreateClasses form{
+    /* background: bisque; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.Home-Content_Overview_Classes_CreateClasses form h1{
+    font-size: 30px;
+    font-weight: bold;
+    color:rgb(84, 206, 139);
+    margin: 0px;
+    padding: 10px 15px;
+    /* padding-right: 15px; */
+    border-bottom: 2px solid rgb(84, 206, 139);
+    text-transform: capitalized;
+    position: relative;
+    user-select: none;
+}
+
+.Home-Content_Overview_Classes_CreateClasses form h1:not(:first-child){
+    margin-top: 10px;
+}
+
+.Home-Content_Overview_Classes_CreateClasses form h1::before{
+    content: '';
+    width: 55px;
+    height: 5px;
+    background: rgb(84, 206, 139);
+    position: absolute;
+    bottom: -3.6px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.Home-Content_Overview_Classes_CreateClasses form .Home-Content_Overview_Classes_CreateClasses_Group{
+    /* background: brown; */
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    /* padding: 20px; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    text-align: right;
+}
+
+
+.Home-Content_Overview_Classes_CreateClasses form .Home-Content_Overview_Classes_CreateClasses_Group label:not(.Home-Content_Overview_Classes_CreateClasses_Group .inputGroup label){
+    margin: 0px;
+    background: rgb(247,248,251);
+    /*background: rgb(5, 29, 100);
+    */width: fit-content;
+    color:rgb(84, 206, 139);
+    padding: 0px 5px;
+    transform: translate(-15px, 5px) !important;
+    font-size: 15px;
+    user-select: none;
+    text-align: left;
+    font-family: arabicFont !important;
+    -webkit-transform: translate(-15px, 5px) !important;
+    -moz-transform: translate(-15px, 5px) !important;
+    -ms-transform: translate(-15px, 5px) !important;
+    -o-transform: translate(-15px, 5px) !important;
+    border: 1.5px solid rgb(84, 206, 139);
+    /* border-bottom: none; */
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.Home-Content_Overview_Classes_CreateClasses_Group .spanGroup{
+    /* background: red; */
+    margin: 0px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px 5px;
+    flex-wrap: wrap;
+    background: rgb(247,248,251);
+    outline: none;
+    border-style: none;
+    padding: 10px 10px;
+    /* padding-top: 10px; */
+    border-radius: 5px;
+    font-size: 15px;
+    color: rgb(101,108,124);
+    /* border: 1.5px solid rgb(80, 115, 230); */
+    user-select: none;
+    border: 1.5px solid rgb(84, 206, 139);
+    width: 100%;
+}
+
+.Home-Content_Overview_Classes_CreateClasses_Group .questions-group,
+.Home-Content_Overview_Classes_CreateClasses_Group .answers-group
+{
+    display: flex;
+    flex-direction: column !important;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px 5px;
+    flex-wrap: wrap; 
+}
+
+.Home-Content_Overview_Classes_CreateClasses_Group .spanGroup div span{
+    background: rgb(101,108,124);
+    color: white;
+    padding: 5px 10px;
+    margin: 0px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.Home-Content_Overview_Classes_CreateClasses form .Home-Content_Overview_Classes_CreateClasses_Group input, .Home-Content_Overview_Classes_CreateClasses form .Home-Content_Overview_Classes_CreateClasses_Group textarea{
+    background: rgb(247,248,251);
+    margin: 0px;
+    outline: none;
+    border-style: none;
+    padding: 10px 15px !important;
+    padding-top: 10px;
+    /* padding-top: 15px;  */
+    border-radius: 5px;
+    font-size: 15px;
+    color: rgb(101,108,124);
+    border: 1.5px solid rgb(84, 206, 139);
+    width: 100%;
+}
+
+.Home-Content_Overview_Classes_CreateClasses form .Home-Content_Overview_Classes_CreateClasses_Group textarea{
+    height: 200px;
+    resize: none;
+}
+
+.Home-Content_Overview_Classes_CreateClasses form .Home-Content_Overview_Classes_CreateClasses_Group textarea::-webkit-scrollbar{
+    background: rgba(0, 0, 0, 0.022);
+    width: 5px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.Home-Content_Overview_Classes_CreateClasses form .Home-Content_Overview_Classes_CreateClasses_Group textarea::-webkit-scrollbar-thumb{
+    background: rgba(0, 0, 0, 0.033);
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.Home-Content_Overview_Classes_CreateClasses form .Home-Content_Overview_Classes_CreateClasses_Group label:not(:first-child){
+    margin-top: 20px !important;
+}
+
+.Home-Content_Overview_Classes_CreateClasses_Control{
+    /* background: red; */
+    width: 100%;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+
+.Home-Content_Overview_Classes_CreateClasses_Control button{
+    margin: 0px;
+    /* width: 50px; */
+    padding: 6px 30px;
+    border-style: none;
+    outline: none;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    background:rgb(84, 206, 139);
+    color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.Home-Content_Overview_Classes_CreateClasses_Control button:hover{
+    background: rgb(68, 189, 122);
+    box-shadow: 0px 0px 8px 0.2px rgba(84, 206, 139, 0.5);
+}
+
+
+.Home-Content_Overview_Classes_ClassesTable{
+    /* background: var(--third-color); */
+    /* background: rgb(25, 151, 139); */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 0px;
+    padding-top: 200px;
+    align-items: center;
+    font-family: var(--mainFont);
+}
+
+
+.Home-Content_Overview_Classes_ClassesTable .showTable{
+    background: rgb(229, 230, 236);
+    font-family: var(--mainFont);
+    /* color: var(--font-color1); */
+    width: 100%;
+    padding: 0px;
+    font-size: 13px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    overflow-y: auto;
+    height: 300px;
+}
+
+.Home-Content_Overview_Classes_ClassesTable .showTable::-webkit-scrollbar{
+    background: rgba(0, 0, 0, 0.022);
+    width: 5px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.Home-Content_Overview_Classes_ClassesTable .showTable::-webkit-scrollbar-thumb{
+    background: rgba(0, 0, 0, 0.033);
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.Home-Content_Overview_Classes_ClassesTable .showTable .table{
+    font-family: var(--mainFont) !important;
+    /*background: rgb(201, 199, 199);
+    */font-weight: 100;
+    margin: 0px;
+    color: rgb(101,108,124);
+}
+
+.Home-Content_Overview_Classes_ClassesTable .showTable .tableFixed{
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    position: relative;
+}
+
+.Home-Content_Overview_Classes_ClassesTable .showTable .table thead{
+    background: rgb(101,108,124);
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    user-select: none;
+    color: white;
+}
+
+.Home-Content_Overview_Classes_ClassesTable .showTable .tableFixed tbody{
+    width: 100%;
+    height: 100px;
+}
+
+.Home-Content_Overview_Classes_ClassesTable .showTable .tableFixed tr{
+    border-color: rgba(0, 0, 0, 0.033);
+}
+
+.Home-Content_Overview_Classes_ClassesTable .showTable .tableFixed tr td{
+    padding: 10px 0px;
+}
+
+.Home-Content_Overview_Classes_ClassesTable .showTable .tableFixed tbody tr{
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    cursor: pointer;
+    /* color: rgb(66, 75, 96); */
+    color: rgb(101,108,124);
+    font-weight: bold;
+}
+
+.Home-Content_Overview_Classes_ClassesTable .showTable .tableFixed tbody tr:hover{
+    background: rgba(74, 74, 84, 0.099);
+    /* color: white; */
+}
+
+
+.Home-Content_Overview_Classes_ClassesTable .showTable .tableFixed tbody tr td button{
+    font-family: var(--mainFont);
+    color: white;
+    border-style: none;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    padding: 5px 15px;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    font-size: 13px;
+    -o-transition: all 0.3s ease;
+    background: rgb(101,108,124);
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.Home-Content_Overview_Classes_ClassesTable .showTable .tableFixed tbody tr td button:hover{
+    background:rgb(70, 105, 219);
+    box-shadow: rgba(70, 105, 219, 0.400) 0px 0px 5px 1px;
+}
+
+.Home-Content_Overview_Classes_ClassesTable .showTable .tableFixed tbody tr .subjects{
+    /* overflow: hidden; */
+    /* white-space: nowrap; */
+    /* text-overflow: ellipsis; */
+    /* max-width: 50px; */
+    /* min-width: 10px; */
+    /* background: red; */
+    border: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px 5px;
+    user-select: none;
+}
+
+.Home-Content_Overview_Classes_ClassesTable .showTable .tableFixed tbody tr .subjects span{
+    background: rgb(80, 115, 230);
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+}

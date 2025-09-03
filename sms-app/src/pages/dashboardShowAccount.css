@@ -1,0 +1,299 @@
+:root {
+
+    --mainFont: 'Noto Sans', sans-serif;
+    --BoxShadow1: rgba(0, 0, 0, 0.066) 0px 0px 15px 1px;
+}
+
+body{
+    font-family: var(--mainFont);
+    box-sizing: border-box;
+}
+
+.DashBoard-Content_Overview.ShowAccounts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.DashBoard-Content_Overview_Accounts{
+    /* background: red; */
+    width: 100%;
+    height: 100%;
+    font-family: var(--mainFont);
+    overflow-y: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    /* display: flex; */
+    /* justify-content: flex-start;
+    align-items: center;
+    flex-direction: column; */
+    gap: 35px;
+}
+
+.DashBoard-Content_Overview_Accounts_Info{
+    padding: 15px 10px;
+    background: white;
+    /* background: gray; */
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    min-width: 40%;
+    max-width: 500px;
+    /* width: 500px; */
+    /* min-height: 150px; */
+    font-family: var(--mainFont);
+    box-shadow: var(--BoxShadow1);
+    font-size: 13.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 5px;
+}
+
+.DashBoard-Content_Overview_Accounts_Info span{
+    font-size: 15px;
+    font-family: var(--mainFont);
+    color:rgb(80, 115, 230);
+    background: white;
+    font-weight: bold;
+    user-select: none;
+    margin: 0px;
+    text-align: right;
+    /* text-transform: capitalize; */
+}
+
+.DashBoard-Content_Overview_Accounts_Info span span{
+    font-weight: normal;
+    color: rgb(101,108,124);
+    margin-left: 5px;
+}
+
+.DashBoard-Content_Overview_Accounts_Info span.active span{
+    padding: 2.5px 6px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.DashBoard-Content_Overview_Accounts_Info .teacherClasses-className{
+    background: rgb(80, 115, 230);
+    color: white;
+    padding: 2.5px 6px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.DashBoard-Content_Overview_Accounts_Info span.active span.active-true{
+    background: rgba(80, 115, 230, 0.35);
+    color: rgb(80, 115, 230);
+}
+
+.DashBoard-Content_Overview_Accounts_Info span.active span.active-false{
+    background: rgba(230, 80, 80, 0.35);
+    color: rgb(230, 80, 80);
+}
+
+.DashBoard-Content_Overview_Accounts_Info hr{
+    background: transparent;
+    height: 1px;
+    width: 100%;
+    border: 0px;
+    outline: none;
+    margin: 5px 0px;
+}
+
+.DashBoard-Content_Overview_Accounts_CreateAccount form{
+    /* background: bisque; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.DashBoard-Content_Overview_Accounts_CreateAccount form h1{
+    font-size: 30px;
+    font-weight: bold;
+    color:rgb(80, 115, 230);
+    margin: 0px;
+    padding: 10px 15px;
+    /* padding-right: 15px; */
+    border-bottom: 2px solid rgb(80, 115, 230);
+    text-transform: capitalized;
+    position: relative;
+    user-select: none;
+}
+
+.DashBoard-Content_Overview_Accounts_CreateAccount form h1:not(:first-child){
+    margin-top: 10px;
+}
+
+.DashBoard-Content_Overview_Accounts_CreateAccount form h1::before{
+    content: '';
+    width: 55px;
+    height: 5px;
+    background: rgb(80, 115, 230);
+    position: absolute;
+    bottom: -3.6px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.DashBoard-Content_Overview_Accounts_CreateAccount form .DashBoard-Content_Overview_Accounts_CreateAccount_Group{
+    /* background: brown; */
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    /* padding: 20px; */
+}
+
+
+.DashBoard-Content_Overview_Accounts_CreateAccount form .DashBoard-Content_Overview_Accounts_CreateAccount_Group label:not(.DashBoard-Content_Overview_Accounts_CreateAccount_Group .inputGroup label){
+    margin: 0px;
+    background: rgb(247,248,251);
+    width: fit-content;
+    color:rgb(80, 115, 230);
+    padding: 0px 5px;
+    transform: translate(10px, 10px);
+    -webkit-transform: translate(10px, 10px);
+    -moz-transform: translate(10px, 10px);
+    -ms-transform: translate(10px, 10px);
+    -o-transform: translate(10px, 10px);
+    font-size: 15px;
+    user-select: none;
+}
+
+.DashBoard-Content_Overview_Accounts_CreateAccount_Group .inputGroup{
+    /* background: red; */
+    margin: 0px;
+    margin-top: 25px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: flex-start; */
+    /* align-items: flex-start; */
+    background: rgb(247,248,251);
+    outline: none;
+    border-style: none;
+    padding: 5px 10px;
+    padding-top: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: rgb(101,108,124);
+    border: 1.5px solid rgb(80, 115, 230);
+}
+
+.DashBoard-Content_Overview_Accounts_CreateAccount_Group .inputGroup div input{
+    transform: translateY(1px);
+    -webkit-transform: translateY(1px);
+    -moz-transform: translateY(1px);
+    -ms-transform: translateY(1px);
+    -o-transform: translateY(1px);
+}
+
+.DashBoard-Content_Overview_Accounts_CreateAccount_Group .inputGroup div label{
+    margin-left: 10px;
+}
+
+.DashBoard-Content_Overview_Accounts_CreateAccount form .DashBoard-Content_Overview_Accounts_CreateAccount_Group input, .DashBoard-Content_Overview_Accounts_CreateAccount form .DashBoard-Content_Overview_Accounts_CreateAccount_Group textarea{
+    background: rgb(247,248,251);
+    margin: 0px;
+    outline: none;
+    border-style: none;
+    padding: 5px 10px;
+    padding-top: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: rgb(101,108,124);
+    border: 1.5px solid rgb(80, 115, 230);
+}
+
+.DashBoard-Content_Overview_Accounts_CreateAccount form .DashBoard-Content_Overview_Accounts_CreateAccount_Group textarea{
+    height: 200px;
+    resize: none;
+}
+
+.DashBoard-Content_Overview_Accounts_CreateAccount form .DashBoard-Content_Overview_Accounts_CreateAccount_Group textarea::-webkit-scrollbar{
+    background: rgba(0, 0, 0, 0.022);
+    width: 5px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.DashBoard-Content_Overview_Accounts_CreateAccount form .DashBoard-Content_Overview_Accounts_CreateAccount_Group textarea::-webkit-scrollbar-thumb{
+    background: rgba(0, 0, 0, 0.033);
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.DashBoard-Content_Overview_Accounts_CreateAccount form .DashBoard-Content_Overview_Accounts_CreateAccount_Group label:not(:first-child){
+    margin-top: 15px;
+}
+
+.DashBoard-Content_Overview_Accounts_CreateAccount_Control{
+    /* background: red; */
+    width: 100%;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+}
+
+.DashBoard-Content_Overview_Accounts_CreateAccount_Control button{
+    margin: 0px;
+    /* width: 50px; */
+    padding: 6px 30px;
+    border-style: none;
+    outline: none;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    background:rgb(80, 115, 230);
+    color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.DashBoard-Content_Overview_Accounts_CreateAccount_Control button.ban{
+    background: rgb(230, 80, 80);
+}
+
+.DashBoard-Content_Overview_Accounts_CreateAccount_Control button.ban:hover{
+    background: rgb(210, 70, 70);
+    box-shadow: rgba(210, 70, 70, 0.400) 0px 0px 5px 1px;
+}
+
+.DashBoard-Content_Overview_Accounts_CreateAccount_Control button:hover{
+    background:rgb(70, 105, 219);
+    box-shadow: rgba(70, 105, 219, 0.400) 0px 0px 5px 1px;
+}
+

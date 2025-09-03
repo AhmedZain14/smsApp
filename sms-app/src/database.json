@@ -1,0 +1,925 @@
+{
+  "accounts": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "123",
+      "name": "management",
+      "role": "admin",
+      "active": true,
+      "ban": false,
+      "createDate": "Saturday, Dec 24, 2022",
+      "studentClass": null,
+      "grades": [],
+      "class": {
+        "classes": [],
+        "subject": null
+      },
+      "parentStudent": null,
+      "adminMessage": [
+        {
+          "title": "title message",
+          "des": "adadadadawd awdwad awd aw",
+          "date": "Saturday, Dec 17, 2022"
+        },
+        {
+          "title": "waddwa",
+          "des": "aaaaaaaaaa",
+          "date": "Monday, Dec 19, 2022"
+        }
+      ],
+      "privateNotes": []
+    },
+    {
+      "id": 2,
+      "username": "iamStudent",
+      "password": "123",
+      "name": "Hidden Object1",
+      "active": true,
+      "ban": false,
+      "createDate": "Saturday, Dec 24, 2022",
+      "role": "student",
+      "studentClass": "5/1",
+      "grades": [
+        {
+          "username": "iamStudent",
+          "date": "Wednesday, Dec 28, 2022",
+          "subject": "english",
+          "currentGrade": "25",
+          "maxGrade": "30"
+        }
+      ],
+      "class": {
+        "classes": [],
+        "subject": null
+      },
+      "parentStudent": null,
+      "adminMessage": [
+        {
+          "title": "tttttttttesta",
+          "des": "zzzzzzdadad",
+          "date": "Saturday, Dec 24, 2022"
+        },
+        {
+          "title": "Tittleeeeeeee",
+          "des": "gooooooooo outttttttt",
+          "date": "Monday, Dec 26, 2022"
+        }
+      ],
+      "privateNotes": [
+        {
+          "disappear": true,
+          "title": "Private Title Noteeee 1",
+          "des": "Lorem ipsum dolor 1"
+        },
+        {
+          "disappear": true,
+          "title": "Private Title Noteeee 2",
+          "des": "Lorem ipsum dolor 2"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "username": "iamParent",
+      "password": "123",
+      "name": "Hidden Object2",
+      "createDate": "Saturday, Dec 24, 2022",
+      "active": true,
+      "ban": false,
+      "role": "parent",
+      "studentClass": null,
+      "grades": [],
+      "class": {
+        "classes": [],
+        "subject": null
+      },
+      "parentStudent": null,
+      "adminMessage": [],
+      "privateNotes": [
+        {
+          "disappear": true,
+          "title": "Title Noteeee 1",
+          "des": "Lorem ipsum dolor 1"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "username": "iamTeacher",
+      "password": "123",
+      "name": "Hidden Object2",
+      "createDate": "Saturday, Dec 24, 2022",
+      "active": true,
+      "ban": false,
+      "role": "teacher",
+      "studentClass": null,
+      "grades": [],
+      "class": {
+        "classes": [],
+        "subject": null
+      },
+      "parentStudent": null,
+      "adminMessage": [],
+      "privateNotes": [
+        {
+          "disappear": true,
+          "title": "Title Noteeee 1",
+          "des": "Lorem ipsum dolor 1"
+        },
+        {
+          "disappear": true,
+          "title": "tawdawdawd",
+          "des": "zzzzzzzt"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "username": "iamTeacher22",
+      "password": "123",
+      "name": "Object2222",
+      "createDate": "Saturday, Dec 24, 2022",
+      "active": true,
+      "ban": false,
+      "grades": [],
+      "role": "teacher",
+      "studentClass": null,
+      "class": {
+        "classes": [],
+        "subject": null
+      },
+      "parentStudent": null,
+      "adminMessage": [],
+      "privateNotes": [
+        {
+          "disappear": true,
+          "title": "Title Noteeee 1",
+          "des": "Lorem ipsum dolor 1"
+        }
+      ]
+    },
+    {
+      "username": "a7",
+      "password": "123",
+      "name": "awda awdawd",
+      "createDate": "Saturday, Dec 24, 2022",
+      "active": true,
+      "ban": false,
+      "grades": [],
+      "role": "student",
+      "studentClass": "5/1",
+      "parentStudent": null,
+      "class": {
+        "classes": [],
+        "subject": null
+      },
+      "id": 6,
+      "adminMessage": [
+        {
+          "title": "Adadwa dwadaw",
+          "des": "aaaaaaaaaaaa zx d awd adawdwa",
+          "date": "Monday, Dec 19, 2022"
+        },
+        {
+          "title": "tttttttttest",
+          "des": "awdddddddddddd",
+          "date": "Monday, Dec 19, 2022"
+        }
+      ],
+      "privateNotes": [
+        {
+          "disappear": true,
+          "title": "Title Noteeee 1",
+          "des": "Lorem ipsum dolor 1"
+        }
+      ]
+    },
+    {
+      "username": "a8",
+      "password": "123",
+      "name": "awdawdawd awd",
+      "createDate": "Saturday, Dec 24, 2022",
+      "active": true,
+      "ban": false,
+      "grades": [
+        {
+          "username": "a8",
+          "date": "Wednesday, Dec 28, 2022",
+          "subject": "english",
+          "currentGrade": "0",
+          "maxGrade": "30"
+        }
+      ],
+      "role": "student",
+      "studentClass": "5/1",
+      "parentStudent": null,
+      "class": {
+        "classes": [],
+        "subject": null
+      },
+      "id": 7,
+      "adminMessage": [],
+      "privateNotes": [
+        {
+          "disappear": true,
+          "title": "Title Noteeee 1",
+          "des": "Lorem ipsum dolor 1"
+        }
+      ]
+    },
+    {
+      "username": "a10",
+      "password": "123",
+      "name": "ooo",
+      "createDate": "Saturday, Dec 24, 2022",
+      "active": true,
+      "grades": [],
+      "ban": false,
+      "role": "teacher",
+      "studentClass": null,
+      "parentStudent": null,
+      "class": {
+        "classes": [],
+        "subject": null
+      },
+      "id": 8,
+      "privateNotes": [
+        {
+          "disappear": true,
+          "title": "Title Noteeee 1",
+          "des": "Lorem ipsum dolor 1"
+        }
+      ],
+      "adminMessage": [
+        {
+          "title": "Adadwa dwadaw",
+          "des": "aaaaaaaaaaaa zx d awd adawdwa",
+          "date": "Monday, Dec 19, 2022"
+        },
+        {
+          "title": "tttttttttest",
+          "des": "awdddddddddddd",
+          "date": "Monday, Dec 19, 2022"
+        }
+      ]
+    },
+    {
+      "username": "a11",
+      "password": "123",
+      "name": "ahmed ahmed",
+      "active": true,
+      "ban": false,
+      "createDate": "Tuesday, Dec 27, 2022",
+      "role": "student",
+      "grades": [
+        {
+          "username": "a11",
+          "date": "Wednesday, Dec 28, 2022",
+          "subject": "english",
+          "currentGrade": "30",
+          "maxGrade": "30"
+        },
+        {
+          "username": "a11",
+          "date": "Wednesday, Dec 28, 2022",
+          "subject": "arabic",
+          "currentGrade": "45",
+          "maxGrade": "50"
+        }
+      ],
+      "studentClass": "5/3",
+      "parentStudent": null,
+      "class": {
+        "classes": [],
+        "subject": null
+      },
+      "id": 9,
+      "privateNotes": [
+        {
+          "disappear": true,
+          "title": "Title Noteeee 1",
+          "des": "Lorem ipsum dolor 1"
+        }
+      ],
+      "adminMessage": [
+        {
+          "title": "Adadwa dwadaw",
+          "des": "aaaaaaaaaaaa zx d awd adawdwa",
+          "date": "Monday, Dec 19, 2022"
+        },
+        {
+          "title": "tttttttttest",
+          "des": "awdddddddddddd",
+          "date": "Monday, Dec 19, 2022"
+        }
+      ]
+    },
+    {
+      "username": "a12",
+      "password": "123",
+      "name": "ahmed yasser",
+      "active": true,
+      "ban": false,
+      "grades": [],
+      "createDate": "Tuesday, Dec 27, 2022",
+      "role": "teacher",
+      "studentClass": null,
+      "parentStudent": null,
+      "class": {
+        "classes": [],
+        "subject": null
+      },
+      "id": 10,
+      "privateNotes": [
+        {
+          "disappear": true,
+          "title": "Title Noteeee 1",
+          "des": "Lorem ipsum dolor 1"
+        }
+      ]
+    },
+    {
+      "username": "ipa",
+      "password": "123",
+      "name": "yazn mohamed",
+      "active": true,
+      "ban": false,
+      "createDate": "Wednesday, Dec 28, 2022",
+      "role": "parent",
+      "studentClass": null,
+      "parentStudent": [
+        "a11",
+        "a8"
+      ],
+      "class": {
+        "classes": [],
+        "subject": null
+      },
+      "id": 11,
+      "privateNotes": [
+        {
+          "disappear": true,
+          "title": "Title Noteeee 1",
+          "des": "Lorem ipsum dolor 1"
+        },
+        {
+          "disappear": true,
+          "title": "tawd parent",
+          "des": "aawdwddd"
+        }
+      ]
+    },
+    {
+      "username": "te1",
+      "password": "123",
+      "name": "mohamed ahmed",
+      "active": true,
+      "ban": false,
+      "createDate": "Friday, Dec 30, 2022",
+      "role": "teacher",
+      "studentClass": null,
+      "parentStudent": null,
+      "class": {
+        "classes": [],
+        "subject": null
+      },
+      "privateNotes": [],
+      "id": 12
+    },
+    {
+      "username": "te2",
+      "password": "123",
+      "name": "teeeeeeeee a",
+      "active": true,
+      "ban": false,
+      "createDate": "Friday, Dec 30, 2022",
+      "role": "teacher",
+      "studentClass": null,
+      "parentStudent": null,
+      "class": {
+        "classes": [],
+        "subject": null
+      },
+      "privateNotes": [],
+      "id": 13
+    }
+  ],
+  "quotes": [
+    "لا يعني الفشل أن اللعبة قد انتهت، بل يعني المحاولة مرة أخرى مع الخبرة",
+    "لاكتساب المعرفة، يجب على المرء أن يدرس؛ ولكن لاكتساب الحكمة، يجب على المرء أن يراعي",
+    "ادرس بجد، لأن البئر عميقة وأدمغتنا ضحلة",
+    "النجاح هو مجموع الجهود الصغيرة التي تتكرر يومًا بعد يوم",
+    "السعي لتحقيق النجاح دون عمل شاق يشبه محاولة الحصاد من مكان لم تزرع فيه",
+    "النجاح هو الانتقال من فشلٍ إلى فشل، دون أن نفقد الأمل. من عمل صنعاتٍ كثيرة لم ينجح في أيٍّ منها",
+    "إذا استطعت أن ترسم ابتسامة لا تقصر",
+    "يمكن مواكبة العالم بالعمل لا بالتأمل، فاليد هي الذراع اليمنى للعقل",
+    "من أبرز السمات التي تقاس بها إنسانية المجتمع  التطوع",
+    "عملك التطوعي .. ينمي الحس والمهارة والإدراك",
+    "من يحب غيره ويساعده يجد الخير في طريقه",
+    "توقف عن كونك شخص مستغل للبيئة، حاول أن تخدم بيئتك بأي شيء",
+    "مجتمعك قدم لك الكثير فلا تبخل عليه بالقليل",
+    "العمل الطيب يعود على الأشخاص بالنفع",
+    "لا تهمل عملك ولا تتكاسل في صنع الأعمال الطيبة في طريقك",
+    "لا تُعاشِر نفساً شبعت بعد جوع فإن الخير فيها دخيل، وعاشر نفساً جاعت بعد شبع فإن الخير فيها أصيل"
+  ],
+  "classes": [
+    {
+      "id": 1,
+      "class_name": {
+        "stage": 5,
+        "classNumber": 1
+      },
+      "class_subjects": [
+        {
+          "name": "english",
+          "roomChat": [
+            {
+              "by": "management",
+              "date": "Thursday, Dec 15, 2022",
+              "message": "aaaaaaaaaaaaaaa111"
+            },
+            {
+              "by": "management",
+              "date": "Thursday, Dec 15, 2022",
+              "message": "zzzzzzzz2222"
+            },
+            {
+              "by": "Hidden Object1",
+              "date": "Monday, Dec 26, 2022",
+              "message": "adadad"
+            },
+            {
+              "by": "Hidden Object1",
+              "date": "Tuesday, Dec 27, 2022",
+              "message": "الووووووووووووووووووووووووووووووووووووو"
+            },
+            {
+              "by": "Hidden Object1",
+              "date": "Tuesday, Dec 27, 2022",
+              "message": "zwzw"
+            },
+            {
+              "by": "Hidden Object1",
+              "date": "Tuesday, Dec 27, 2022",
+              "message": "wwww"
+            },
+            {
+              "by": "Hidden Object1",
+              "date": "Tuesday, Dec 27, 2022",
+              "message": "ppppppppppp"
+            },
+            {
+              "by": "awda awdawd",
+              "date": "Tuesday, Dec 27, 2022",
+              "message": "z"
+            },
+            {
+              "by": "Hidden Object1",
+              "date": "Tuesday, Dec 27, 2022",
+              "message": "wwwwwwwww"
+            },
+            {
+              "by": "Hidden Object1",
+              "date": "Tuesday, Dec 27, 2022",
+              "message": "9"
+            },
+            {
+              "by": "Hidden Object1",
+              "date": "Tuesday, Dec 27, 2022",
+              "message": "10"
+            },
+            {
+              "by": "Hidden Object1",
+              "date": "Tuesday, Dec 27, 2022",
+              "message": "11"
+            },
+            {
+              "by": "awda awdawd",
+              "date": "Tuesday, Dec 27, 2022",
+              "message": "12"
+            },
+            {
+              "by": "Hidden Object1",
+              "date": "Tuesday, Dec 27, 2022",
+              "message": "dwaawad"
+            },
+            {
+              "by": "awda awdawd",
+              "date": "Tuesday, Dec 27, 2022",
+              "message": "uuuu"
+            },
+            {
+              "by": "Hidden Object1",
+              "date": "Tuesday, Dec 27, 2022",
+              "message": "السلام عليكم\nاي الدنيا؟"
+            },
+            {
+              "by": "Hidden Object2",
+              "date": "Tuesday, Dec 27, 2022",
+              "message": "hala"
+            },
+            {
+              "by": "Hidden Object1",
+              "date": "Friday, Dec 30, 2022",
+              "message": "allloooooo"
+            },
+            {
+              "by": "Hidden Object1",
+              "date": "Friday, Dec 30, 2022",
+              "message": "ئئئئ"
+            },
+            {
+              "by": "Hidden Object1",
+              "date": "Friday, Dec 30, 2022",
+              "message": "شصي"
+            },
+            {
+              "by": "ahmed yasser",
+              "date": "Saturday, Feb 18, 2023",
+              "message": "z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "class_name": {
+        "stage": 5,
+        "classNumber": 2
+      },
+      "class_subjects": [
+        {
+          "name": "math",
+          "roomChat": [
+            {
+              "by": "management",
+              "date": "Thursday, Dec 15, 2022",
+              "message": "mathhhhhhh1"
+            },
+            {
+              "by": "management",
+              "date": "Thursday, Dec 15, 2022",
+              "message": "math2222222222"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "class_name": {
+        "stage": 5,
+        "classNumber": 3
+      },
+      "class_subjects": [
+        {
+          "name": "maathh3",
+          "roomChat": [
+            {
+              "by": "management",
+              "date": "Monday, Dec 26, 2022",
+              "message": "chat done"
+            },
+            {
+              "by": "ahmed ahmed",
+              "date": "Tuesday, Dec 27, 2022",
+              "message": "this is math3"
+            },
+            {
+              "by": "ahmed ahmed",
+              "date": "Tuesday, Dec 27, 2022",
+              "message": "ok?"
+            },
+            {
+              "by": "ahmed ahmed",
+              "date": "Monday, Feb 13, 2023",
+              "message": "gggggggggg"
+            },
+            {
+              "by": "ahmed ahmed",
+              "date": "Saturday, Feb 18, 2023",
+              "message": "awd"
+            },
+            {
+              "by": "ahmed ahmed",
+              "date": "Saturday, Feb 18, 2023",
+              "message": "j j"
+            },
+            {
+              "by": "ahmed ahmed",
+              "date": "Monday, Feb 20, 2023",
+              "message": "khaled el king"
+            }
+          ]
+        },
+        {
+          "name": "maathh4",
+          "roomChat": [
+            {
+              "by": "management",
+              "date": "Monday, Dec 26, 2022",
+              "message": "chat done"
+            },
+            {
+              "by": "ahmed ahmed",
+              "date": "Tuesday, Dec 27, 2022",
+              "message": "this is mathhh 4 ..."
+            },
+            {
+              "by": "ahmed ahmed",
+              "date": "Tuesday, Dec 27, 2022",
+              "message": "ok??????"
+            },
+            {
+              "by": "ahmed ahmed",
+              "date": "Monday, Feb 13, 2023",
+              "message": "awdawdd"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "adminNotes": [],
+  "workers": [
+    {
+      "name": "test test",
+      "job": "ttttttt",
+      "dateOfHiring": "Saturday, Dec 17, 2022",
+      "id": 4
+    },
+    {
+      "name": "ahmed yasserff",
+      "job": "مهندس",
+      "dateOfHiring": "Friday, Dec 30, 2022",
+      "id": 5
+    }
+  ],
+  "reports": [
+    {
+      "id": 1,
+      "title": "title report",
+      "by": "iamStudent (Hidden Object1)",
+      "des": "description dwawadawdadadaw rawtawdfadwa dwadd dsadaawdw daasasdawd awdawdwdawtesyesg awdawda dsaaw feaad ada adaddd2",
+      "type": "type report",
+      "status": "accepted",
+      "createDate": "Thursday, Dec 15, 2022"
+    },
+    {
+      "id": 2,
+      "title": "teachhhhhhhher",
+      "des": "مش محترم بياكل في الحصة  ومش بيشرح",
+      "by": "a7 (awda awdawd)",
+      "type": "teacher",
+      "status": "rejected",
+      "createDate": "Saturday, Feb 18, 2023"
+    },
+    {
+      "title": "teachhhhhhhher",
+      "des": "haaaaaaaaaaaa",
+      "type": "teacher",
+      "status": "pending",
+      "createDate": "Monday, Feb 20, 2023",
+      "by": "a7 (awda awdawd)",
+      "id": 3
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "Title Post 1",
+      "des": "Description post 1",
+      "image": "image src",
+      "date": "Thursday, Dec 15, 2022"
+    },
+    {
+      "title": "tttttttttttttttttttttt",
+      "des": "شييييييييييييييييي",
+      "image": "",
+      "date": "Friday, Dec 23, 2022",
+      "id": 4
+    },
+    {
+      "title": "tttttttttttttttttttttt",
+      "des": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "image": "",
+      "date": "Saturday, Dec 24, 2022",
+      "id": 5
+    },
+    {
+      "title": "7575775",
+      "des": "شششششششششششششششششش",
+      "image": "",
+      "date": "Saturday, Dec 24, 2022",
+      "id": 6
+    },
+    {
+      "title": "this is a new post",
+      "des": "nnnnnnnnnnnnn",
+      "image": "",
+      "date": "Monday, Dec 26, 2022",
+      "id": 7
+    },
+    {
+      "title": "aaaaaa",
+      "des": "thissss a new post Monday dec 26",
+      "image": "",
+      "date": "Monday, Dec 26, 2022",
+      "id": 8
+    }
+  ],
+  "FinancialReceipts": [
+    {
+      "id": 1,
+      "username": "aaa",
+      "name": "dawdwad",
+      "amount": 2500,
+      "date": "Saturday, Dec 17, 2022"
+    },
+    {
+      "username": "iamStudent",
+      "name": "Hidden Object1",
+      "amount": 2000,
+      "date": "Friday, Dec 30, 2022",
+      "id": 2
+    }
+  ],
+  "FinancialAccounts": [
+    {
+      "title": "22313",
+      "des": "khuku",
+      "date": "Tuesday, Mar 21, 2023",
+      "time": "10:12:56 AM",
+      "deposit": 5151,
+      "withdraw": 0,
+      "id": 1
+    }
+  ],
+  "financialBalance": {
+    "value": 0
+  },
+  "teachers": [
+    {
+      "id": 1,
+      "username": "iamTeacher",
+      "name": "Hidden Object2",
+      "classes": [
+        "5/1"
+      ],
+      "subject": "english"
+    },
+    {
+      "id": 2,
+      "username": "a9",
+      "name": "uu",
+      "classes": [
+        "5/1",
+        "5/2"
+      ],
+      "subject": "arabic"
+    },
+    {
+      "username": "a10",
+      "name": "ooo",
+      "classes": [
+        "5/3"
+      ],
+      "subject": "maathh3",
+      "id": 3
+    },
+    {
+      "username": "a12",
+      "name": "ahmed yasser",
+      "classes": [
+        "5/1",
+        "5/2",
+        "5/3"
+      ],
+      "subject": "english",
+      "id": 4
+    },
+    {
+      "username": "te1",
+      "name": "Mohamed Ahmed",
+      "classes": [
+        "5/1"
+      ],
+      "subject": "english",
+      "id": 5
+    },
+    {
+      "username": "te2",
+      "name": "teeeeeeeee a",
+      "classes": [
+        "5/2"
+      ],
+      "subject": "math",
+      "id": 6
+    }
+  ],
+  "systemSetting": {
+    "copyRight": "© 2023 Information Technology School. All rights reserved",
+    "systemName": "Information Technology School",
+    "pageTitle": "Information Technology School"
+  },
+  "exams": [
+    {
+      "className": "5/3",
+      "date": "Monday, Feb 20, 2023",
+      "by": "ahmed yasser",
+      "questions": [
+        {
+          "question": "تعريف الوسائط",
+          "answers": [
+            "اجابة 1",
+            "اجابة 2",
+            "اجابة 3"
+          ]
+        },
+        {
+          "question": "أهم عناصر الوسائط المتعددة",
+          "answers": [
+            "النص",
+            "الصوت",
+            "الألعاب",
+            "الطبخ"
+          ]
+        }
+      ],
+      "id": 1
+    }
+  ],
+  "examSolutions": [
+    {
+      "classExam": "5/3",
+      "name": "ahmed ahmed",
+      "username": "a11",
+      "date": "Monday, Feb 20, 2023",
+      "values": [
+        {
+          "questionName": "تعريف الوسائط",
+          "answer": "اجابة 1",
+          "check": true
+        },
+        {
+          "questionName": "أهم عناصر الوسائط المتعددة",
+          "answer": "النص",
+          "check": true
+        },
+        {
+          "questionName": "أهم عناصر الوسائط المتعددة",
+          "answer": "الصوت",
+          "check": true
+        }
+      ],
+      "id": 1
+    }
+  ],
+  "grades": [],
+  "privateNotes": [
+    {
+      "id": 1,
+      "username": "a7",
+      "disappear": true,
+      "title": "Title Noteeee 1",
+      "des": "Lorem ipsum dolor 1"
+    },
+    {
+      "id": 3,
+      "username": "iamStudent",
+      "disappear": true,
+      "title": "Title Noteeee 3333",
+      "des": "Lorem ipsum doloawdawdr 333"
+    },
+    {
+      "username": "a12",
+      "disappear": true,
+      "title": "aaahmed yaser",
+      "des": "aaadaw awdwa",
+      "id": 6
+    },
+    {
+      "username": "ipa",
+      "disappear": true,
+      "title": "tawd parent",
+      "des": "zzz",
+      "id": 7
+    },
+    {
+      "username": "a7",
+      "disappear": true,
+      "title": "abdallahhhhhhhhhh",
+      "des": "31541451532105201';l,llkmmklm",
+      "id": 8
+    },
+    {
+      "username": "a11",
+      "disappear": true,
+      "title": "khhhhhhhhalefd",
+      "des": "dadwdadwadw dwaadw",
+      "id": 9
+    }
+  ]
+}

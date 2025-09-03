@@ -1,0 +1,106 @@
+
+
+:root {
+
+    --main-color: #F4F5FC;
+    --first-color: #727C90;
+    --second-color: #B3B4B7;
+    --third-color: #5C6476;
+    --fourth-color: #666F82;
+    --fifth-color: #747E93;
+    --font-color1: #B7C3DA;
+    --seventh-color: #4e6eaf;
+    --seventh-color-hover: #4c6aa7;
+    /* --seventh-color: #e8af44; */
+    --eighth-color: #525A6C;
+    --ninth-color: #636B7D;
+    --dangerous-color: #8f4e4e;
+    --dangerous-hover: #7c4646;
+}
+
+
+
+
+
+
+
+/* font-family: 'Noto Sans', sans-serif; */
+
+/* .sidebar-scroll{
+
+    padding: 0px 20px;
+    overflow-y: auto;
+    height: calc(100% - 40px - 10px);
+}
+
+.sidebar-scroll::-webkit-scrollbar{
+    background: rgba(0, 0, 0, 0.022);
+    width: 5px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.sidebar-scroll::-webkit-scrollbar-thumb{
+    background: rgba(0, 0, 0, 0.033);
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+} */
+
+
+/* transition: all 0.3s ease;
+-webkit-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-ms-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+cursor: pointer; */
+
+
+/* .createPost{
+    background: blue;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px 0px; 
+    align-items: center;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.createPost .post{
+    background: var(--ninth-color);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 40px;
+    min-height: 200px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+} */
+
+
+
+/* 
+:root {
+
+    --main-color: #F4F5FC;
+    --first-color: #727C90;
+    --second-color: #B3B4B7;
+    --third-color: #5C6476;
+    --fourth-color: #666F82;
+    --fifth-color: #747E93;
+    --font-color1: #B7C3DA;
+    --seventh-color: #4e6eaf;
+    --seventh-color: #e8af44; // comment
+    --eighth-color: #525A6C;
+    --ninth-color: #636B7D;
+}
+ */

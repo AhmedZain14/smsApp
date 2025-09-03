@@ -1,0 +1,716 @@
+{
+  "accounts": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "123",
+      "name": "Management",
+      "role": "admin",
+      "active": true,
+      "ban": false,
+      "createDate": "Saturday, Dec 24, 2022",
+      "studentClass": null,
+      "grades": [],
+      "class": {
+        "classes": [],
+        "subject": null
+      },
+      "parentStudent": null,
+      "adminMessage": [
+        {
+          "title": "title message",
+          "des": "adadadadawd awdwad awd aw",
+          "date": "Saturday, Dec 17, 2022"
+        },
+        {
+          "title": "waddwa",
+          "des": "aaaaaaaaaa",
+          "date": "Monday, Dec 19, 2022"
+        }
+      ],
+      "privateNotes": []
+    },
+    {
+      "username": "studentM",
+      "password": "123",
+      "name": "student management",
+      "active": true,
+      "ban": false,
+      "createDate": "Tuesday, May 16, 2023",
+      "role": "admin",
+      "studentClass": null,
+      "parentStudent": null,
+      "class": {
+        "classes": [],
+        "subject": null
+      },
+      "grades": [],
+      "privateNotes": [],
+      "adminMessage": [],
+      "id": 2
+    },
+    {
+      "username": "diaa",
+      "password": "123",
+      "name": "diaa saleh",
+      "active": true,
+      "ban": false,
+      "createDate": "Sunday, Jun 4, 2023",
+      "role": "student",
+      "studentClass": "5/1",
+      "parentStudent": null,
+      "class": {
+        "classes": [],
+        "subject": null
+      },
+      "grades": [
+        {
+          "username": "diaa",
+          "date": "Friday, Nov 10, 2023",
+          "subject": "english",
+          "currentGrade": "25",
+          "maxGrade": "1515"
+        }
+      ],
+      "privateNotes": [],
+      "adminMessage": [],
+      "id": 3
+    },
+    {
+      "username": "te1",
+      "password": "123",
+      "name": "awd",
+      "active": true,
+      "ban": false,
+      "createDate": "Friday, Nov 10, 2023",
+      "role": "teacher",
+      "studentClass": null,
+      "parentStudent": null,
+      "class": {
+        "classes": [],
+        "subject": null
+      },
+      "grades": [],
+      "privateNotes": [],
+      "adminMessage": [],
+      "id": 4
+    },
+    {
+      "username": "pa1",
+      "password": "123",
+      "name": "dawdad",
+      "active": true,
+      "ban": false,
+      "createDate": "Friday, Nov 10, 2023",
+      "role": "parent",
+      "studentClass": null,
+      "parentStudent": [
+        "diaa"
+      ],
+      "class": {
+        "classes": [],
+        "subject": null
+      },
+      "grades": [],
+      "privateNotes": [],
+      "adminMessage": [],
+      "id": 5
+    },
+    {
+      "username": "zzz",
+      "password": "123",
+      "name": "adwadw",
+      "active": true,
+      "ban": false,
+      "createDate": "Friday, Nov 24, 2023",
+      "role": "admin",
+      "studentClass": null,
+      "parentStudent": null,
+      "class": {
+        "classes": [],
+        "subject": null
+      },
+      "grades": [],
+      "privateNotes": [],
+      "adminMessage": [],
+      "id": 6
+    },
+    {
+      "username": "ahmed",
+      "password": "1442004",
+      "name": "ahmed zain",
+      "active": true,
+      "ban": false,
+      "createDate": "Wednesday, Sep 3, 2025",
+      "role": "admin",
+      "studentClass": null,
+      "parentStudent": null,
+      "class": {
+        "classes": [],
+        "subject": null
+      },
+      "grades": [],
+      "privateNotes": [],
+      "adminMessage": [],
+      "id": 7
+    }
+  ],
+  "quotes": [
+    "لا يعني الفشل أن اللعبة قد انتهت، بل يعني المحاولة مرة أخرى مع الخبرة",
+    "لاكتساب المعرفة، يجب على المرء أن يدرس؛ ولكن لاكتساب الحكمة، يجب على المرء أن يراعي",
+    "ادرس بجد، لأن البئر عميقة وأدمغتنا ضحلة",
+    "النجاح هو مجموع الجهود الصغيرة التي تتكرر يومًا بعد يوم",
+    "السعي لتحقيق النجاح دون عمل شاق يشبه محاولة الحصاد من مكان لم تزرع فيه",
+    "النجاح هو الانتقال من فشلٍ إلى فشل، دون أن نفقد الأمل. من عمل صنعاتٍ كثيرة لم ينجح في أيٍّ منها",
+    "إذا استطعت أن ترسم ابتسامة لا تقصر",
+    "يمكن مواكبة العالم بالعمل لا بالتأمل، فاليد هي الذراع اليمنى للعقل",
+    "من أبرز السمات التي تقاس بها إنسانية المجتمع  التطوع",
+    "عملك التطوعي .. ينمي الحس والمهارة والإدراك",
+    "من يحب غيره ويساعده يجد الخير في طريقه",
+    "توقف عن كونك شخص مستغل للبيئة، حاول أن تخدم بيئتك بأي شيء",
+    "مجتمعك قدم لك الكثير فلا تبخل عليه بالقليل",
+    "العمل الطيب يعود على الأشخاص بالنفع",
+    "لا تهمل عملك ولا تتكاسل في صنع الأعمال الطيبة في طريقك",
+    "لا تُعاشِر نفساً شبعت بعد جوع فإن الخير فيها دخيل، وعاشر نفساً جاعت بعد شبع فإن الخير فيها أصيل"
+  ],
+  "classes": [
+    {
+      "id": 1,
+      "class_name": {
+        "stage": 1,
+        "classNumber": 1
+      },
+      "class_subjects": [
+        {
+          "name": "english",
+          "roomChat": [
+            {
+              "by": "management",
+              "date": "Wednesday, Apr 5, 2023",
+              "message": "chat done"
+            },
+            {
+              "by": "ahmed yasser",
+              "date": "Wednesday, Apr 5, 2023",
+              "message": "awdawd"
+            },
+            {
+              "by": "diaa saleh",
+              "date": "Wednesday, Apr 5, 2023",
+              "message": "awdawdawdawdadw"
+            },
+            {
+              "by": "ahmed yasser",
+              "date": "Wednesday, Apr 5, 2023",
+              "message": "adadwdawadw"
+            },
+            {
+              "by": "aaa saleh",
+              "date": "Wednesday, Apr 19, 2023",
+              "message": "awdadawdawd"
+            },
+            {
+              "by": "aaa saleh",
+              "date": "Wednesday, Apr 19, 2023",
+              "message": "zzzzzzzzzzzzzzzzzzzzzzzzz"
+            },
+            {
+              "by": "aaa saleh",
+              "date": "Wednesday, Apr 19, 2023",
+              "message": "heyyyy"
+            },
+            {
+              "by": "atef mahmoud",
+              "date": "Wednesday, Apr 19, 2023",
+              "message": "صصصصصصصصصصصصصصصص"
+            },
+            {
+              "by": "dia awdawd",
+              "date": "Sunday, Jun 4, 2023",
+              "message": "awdawd"
+            },
+            {
+              "by": "diaa saleh",
+              "date": "Friday, Jun 23, 2023",
+              "message": "adawdadw"
+            },
+            {
+              "by": "diaa saleh",
+              "date": "Friday, Jun 23, 2023",
+              "message": "zzzzzzzzzzzzzzzz"
+            },
+            {
+              "by": "diaa saleh",
+              "date": "Friday, Nov 10, 2023",
+              "message": "zdawad"
+            },
+            {
+              "by": "diaa saleh",
+              "date": "Friday, Nov 10, 2023",
+              "message": "ali "
+            }
+          ]
+        },
+        {
+          "name": "arabic",
+          "roomChat": [
+            {
+              "by": "management",
+              "date": "Wednesday, Apr 5, 2023",
+              "message": "chat done"
+            },
+            {
+              "by": "dia awdawd",
+              "date": "Sunday, Jun 4, 2023",
+              "message": "aaa"
+            },
+            {
+              "by": "diaa saleh",
+              "date": "Friday, Nov 10, 2023",
+              "message": "ali\nawdawd"
+            }
+          ]
+        },
+        {
+          "name": "marh1",
+          "roomChat": [
+            {
+              "by": "management",
+              "date": "Wednesday, Apr 5, 2023",
+              "message": "chat done"
+            },
+            {
+              "by": "aaa saleh",
+              "date": "Wednesday, Apr 19, 2023",
+              "message": "صصصصصصصصصصصصصصصصصصصصصصصصصصصصص"
+            },
+            {
+              "by": "dia awdawd",
+              "date": "Sunday, Jun 4, 2023",
+              "message": "awdadw"
+            }
+          ]
+        },
+        {
+          "name": "math2",
+          "roomChat": [
+            {
+              "by": "management",
+              "date": "Wednesday, Apr 5, 2023",
+              "message": "chat done"
+            },
+            {
+              "by": "aaa saleh",
+              "date": "Wednesday, Apr 19, 2023",
+              "message": "صشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشي صشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشي صشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشي"
+            },
+            {
+              "by": "aaa saleh",
+              "date": "Wednesday, Apr 19, 2023",
+              "message": "صشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشيصشي"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class_name": {
+        "stage": 2,
+        "classNumber": 1
+      },
+      "class_subjects": [
+        {
+          "name": "english",
+          "roomChat": [
+            {
+              "by": "management",
+              "date": "Friday, Nov 10, 2023",
+              "message": "chat done"
+            }
+          ]
+        },
+        {
+          "name": "math",
+          "roomChat": [
+            {
+              "by": "management",
+              "date": "Friday, Nov 10, 2023",
+              "message": "chat done"
+            }
+          ]
+        }
+      ],
+      "id": 2
+    },
+    {
+      "id": 3,
+      "class_name": {
+        "stage": 5,
+        "classNumber": 1
+      },
+      "class_subjects": [
+        {
+          "name": "english",
+          "roomChat": [
+            {
+              "by": "management",
+              "date": "Friday, Nov 10, 2023",
+              "message": "chat done"
+            },
+            {
+              "by": "diaa saleh",
+              "date": "Friday, Nov 10, 2023",
+              "message": "awdawdawd"
+            },
+            {
+              "by": "awd",
+              "date": "Friday, Nov 10, 2023",
+              "message": "zdzdda"
+            },
+            {
+              "by": "diaa saleh",
+              "date": "Friday, Nov 24, 2023",
+              "message": "awdawd"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "adminNotes": [
+    {
+      "disappear": true,
+      "title": "axawdawd",
+      "des": "adzddaadawd",
+      "id": 1
+    },
+    {
+      "disappear": true,
+      "title": "wwww",
+      "des": "aaa",
+      "id": 2
+    },
+    {
+      "disappear": true,
+      "title": "sdfgfdasdfgqwe",
+      "des": "asdfghjkjhgewertyuiokjhgfds",
+      "id": 3
+    },
+    {
+      "disappear": true,
+      "title": "Hello,",
+      "des": "Welcom To My Web",
+      "id": 4
+    }
+  ],
+  "workers": [
+    {
+      "name": "ahmed yasser",
+      "job": "teacher",
+      "dateOfHiring": "Wednesday, Apr 5, 2023",
+      "id": 2
+    },
+    {
+      "name": "awdawdawda",
+      "job": "dawdawd",
+      "dateOfHiring": "Friday, Jun 23, 2023",
+      "id": 3
+    }
+  ],
+  "reports": [
+    {
+      "id": 1,
+      "title": "awdaw dawda",
+      "des": "awdawdad awdwadwad awdawdad awdwadwad awdawdad awdwadwad awdawdad awdwadwad awdawdad awdwadwad awddzzzzzzzzz",
+      "by": "diaa (diaa saleh)",
+      "type": "teacher",
+      "status": "rejected",
+      "createDate": "Wednesday, Apr 5, 2023"
+    },
+    {
+      "id": 2,
+      "title": "تغيير الأسم",
+      "des": "شصيشصيشصصي",
+      "by": "diaa (diaa saleh)",
+      "type": "غير ذلك",
+      "status": "rejected",
+      "createDate": "Friday, Nov 10, 2023"
+    }
+  ],
+  "posts": [
+    {
+      "title": "--",
+      "des": "يوم الأحد يوم دراسي طبيعي ولا يوجد أي اجازات",
+      "image": "",
+      "date": "Wednesday, Apr 5, 2023",
+      "id": 1
+    },
+    {
+      "title": "--",
+      "des": "awdawdasdd dzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz",
+      "image": "",
+      "date": "Friday, Nov 24, 2023",
+      "id": 2
+    },
+    {
+      "title": "--",
+      "des": "aaaaaaaa",
+      "image": "",
+      "date": "Friday, Nov 24, 2023",
+      "id": 3
+    },
+    {
+      "title": "--",
+      "des": "awdawd",
+      "image": "",
+      "date": "Friday, Nov 24, 2023",
+      "id": 4
+    },
+    {
+      "title": "--",
+      "des": "zdawdaw",
+      "image": "",
+      "date": "Friday, Nov 24, 2023",
+      "id": 5
+    },
+    {
+      "title": "--",
+      "des": "dawdawd",
+      "image": "",
+      "date": "Friday, Nov 24, 2023",
+      "id": 6
+    },
+    {
+      "title": "--",
+      "des": "zdawdawd",
+      "image": "",
+      "date": "Friday, Nov 24, 2023",
+      "id": 7
+    },
+    {
+      "title": "--",
+      "des": "dawdawd",
+      "image": "",
+      "date": "Friday, Nov 24, 2023",
+      "id": 8
+    },
+    {
+      "title": "--",
+      "des": "dawdawd",
+      "image": "",
+      "date": "Friday, Nov 24, 2023",
+      "id": 9
+    },
+    {
+      "title": "--",
+      "des": "zdadaw ",
+      "image": "",
+      "date": "Friday, Nov 24, 2023",
+      "id": 10
+    },
+    {
+      "title": "--",
+      "des": "2442adwdaw",
+      "image": "",
+      "date": "Friday, Nov 24, 2023",
+      "id": 11
+    }
+  ],
+  "FinancialReceipts": [
+    {
+      "username": "diaa",
+      "name": "adwawdadw",
+      "amount": 2525,
+      "date": "Friday, Nov 10, 2023",
+      "id": 1
+    }
+  ],
+  "FinancialAccounts": [
+    {
+      "title": "awdawd",
+      "des": "tawdawdawd",
+      "date": "Wednesday, Apr 5, 2023",
+      "time": "16:10:05",
+      "deposit": 55.2,
+      "withdraw": 0,
+      "id": 1
+    },
+    {
+      "title": "awdawd",
+      "des": "adawdaw",
+      "date": "Friday, Nov 10, 2023",
+      "time": "9:12:44 PM",
+      "deposit": 2000,
+      "withdraw": 0,
+      "id": 2
+    },
+    {
+      "title": "awdawd",
+      "des": "dawdaw",
+      "date": "Friday, Nov 24, 2023",
+      "time": "2:07:16 PM",
+      "deposit": 55,
+      "withdraw": 0,
+      "id": 3
+    },
+    {
+      "title": "awdadw",
+      "des": "dawawd",
+      "date": "Friday, Nov 24, 2023",
+      "time": "2:08:00 PM",
+      "deposit": 2525,
+      "withdraw": 0,
+      "id": 4
+    }
+  ],
+  "financialBalance": {
+    "value": 0
+  },
+  "teachers": [
+    {
+      "username": "mratef",
+      "name": "atef mahmoud",
+      "classes": [
+        "1/1"
+      ],
+      "subject": "english",
+      "id": 2
+    }
+  ],
+  "systemSetting": [
+    {
+      "id": "1",
+      "copyRight": "© 2023 Information Technology School. All rights reserved",
+      "systemName": "tannnn",
+      "pageTitle": "Information"
+    }
+  ],
+  "exams": [
+    {
+      "className": "5/1",
+      "date": "Friday, Nov 10, 2023",
+      "subjectName": "english",
+      "by": "awd",
+      "questions": [
+        {
+          "question": "q11111",
+          "answers": [
+            "aaa111",
+            "aaa122",
+            "aaa1331323"
+          ]
+        },
+        {
+          "question": "q222222",
+          "answers": [
+            "aa2adwawd",
+            "dawdawdawdawwd",
+            "adadda"
+          ]
+        },
+        {
+          "question": "q1",
+          "answers": [
+            "awdawd"
+          ]
+        },
+        {
+          "question": "q1",
+          "answers": [
+            "awadawdad",
+            "zdawd"
+          ]
+        }
+      ],
+      "id": 1
+    }
+  ],
+  "examSolutions": [
+    {
+      "classExam": "5/1",
+      "name": "diaa saleh",
+      "username": "diaa",
+      "date": "Friday, Nov 10, 2023",
+      "values": [
+        {
+          "questionName": "q11111",
+          "answer": "aaa111",
+          "check": true
+        },
+        {
+          "questionName": "q11111",
+          "answer": "aaa1331323",
+          "check": true
+        },
+        {
+          "questionName": "q222222",
+          "answer": "dawdawdawdawwd",
+          "check": true
+        },
+        {
+          "questionName": "q1",
+          "answer": "awdawd",
+          "check": true
+        },
+        {
+          "questionName": "q1",
+          "answer": "zdawd",
+          "check": true
+        }
+      ],
+      "id": 1
+    }
+  ],
+  "grades": [],
+  "privateNotes": [
+    {
+      "id": 1,
+      "username": "a7",
+      "disappear": true,
+      "title": "Title Noteeee 1",
+      "des": "Lorem ipsum dolor 1"
+    },
+    {
+      "id": 3,
+      "username": "iamStudent",
+      "disappear": true,
+      "title": "Title Noteeee 3333",
+      "des": "Lorem ipsum doloawdawdr 333"
+    },
+    {
+      "username": "a12",
+      "disappear": true,
+      "title": "aaahmed yaser",
+      "des": "aaadaw awdwa",
+      "id": 6
+    },
+    {
+      "username": "ipa",
+      "disappear": true,
+      "title": "tawd parent",
+      "des": "zzz",
+      "id": 7
+    },
+    {
+      "username": "a7",
+      "disappear": true,
+      "title": "abdallahhhhhhhhhh",
+      "des": "31541451532105201';l,llkmmklm",
+      "id": 8
+    },
+    {
+      "username": "a11",
+      "disappear": true,
+      "title": "khhhhhhhhalefd",
+      "des": "dadwdadwadw dwaadw",
+      "id": 9
+    },
+    {
+      "username": "diaa",
+      "disappear": true,
+      "title": "awdwadaw",
+      "des": "awdawdawd",
+      "id": 10
+    }
+  ]
+}
